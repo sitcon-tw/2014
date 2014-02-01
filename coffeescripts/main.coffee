@@ -128,8 +128,8 @@ page.section SECTIONS.ABOUT, (section) ->
     start: 0
     end: 100
     key: 'transform'
-    from: screenHeight - 60
-    to: screenHeight / 2 -60
+    from: screenHeight - 50
+    to: screenHeight / 2 - 50
     format: "translateY(%spx)"
   }
 
