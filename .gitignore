@@ -3,3 +3,4 @@ stylesheets/
 .sass-cache/
 .coffeescript-cache/
 fire_app_log.txt
+bower_components/

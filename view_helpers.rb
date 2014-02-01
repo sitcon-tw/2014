@@ -11,4 +11,8 @@ module ViewHelpers
   def analytics_code
     config['analytics']['code']
   end
+
+  def bower_tag(path)
+    content_tag :script, "", :src => "bower_components/#{path}.js"
+  end
 end
