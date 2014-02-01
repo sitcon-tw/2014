@@ -1,0 +1,11 @@
+/**
+ * Header
+ */
+
+.sub-header {
+  @include adjust-font-size-to(24px, 1.5, 32px);
+
+  &.small {
+    @include adjust-font-size-to(16px, 1.5, 32px);
+  }
+}
