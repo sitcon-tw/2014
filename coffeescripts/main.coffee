@@ -51,6 +51,7 @@ primaryColor = "#7cb059"
 aboutSVG = SVG("about-svg")
 sitconJiang = aboutSVG.image("images/sitcon_jiang.png", 584, 687).move(screenWidth * 0.9 - sitconJiangWidth, calcSITCONJiangTop())
 aboutBG = aboutSVG.polygon("0,0 #{screenWidth * 0.75},0 #{screenWidth * 0.65},#{aboutDescriptionHeight * 1.2} 0,#{aboutDescriptionHeight * 1.2}").fill(primaryColor)
+aboutBG.y(screenHeight)
 sitconJiangLine = aboutSVG.image("images/sitcon_jiang_line.png", 584, 687).move(screenWidth * 0.9 - sitconJiangWidth, calcSITCONJiangTop())
 
 $window.on "resize", ()->
@@ -111,22 +112,25 @@ page.section SECTIONS.NAVIGATION, (section) ->
 page.section SECTIONS.ABOUT, (section) ->
   transitions = []
 
+  section.on "scrollOut", ()->
+
   section.on "scrollIn", ()->
     setMenuActiveItem(0)
 
   section.on "progress", (percent)->
     from = screenHeight
     to = screenHeight / 2
-    aboutBG.y((to - from) / 100 * percent + from)
+    if percent <= 100
+      aboutBG.y((to - from) / 100 * percent + from)
 
   transitions.push {
     target: $aboutDescription[0]
     start: 0
     end: 100
-    key: 'top'
-    from: screenHeight + 20
-    to: screenHeight / 2 + 20
-    format: "%spx"
+    key: 'transform'
+    from: screenHeight - 60
+    to: screenHeight / 2 -60
+    format: "translateY(%spx)"
   }
 
   section.transitions(transitions)
@@ -143,10 +147,10 @@ page.section SECTIONS.LOCATION, (section) ->
     target: sitconJiangAtMap
     start: 0
     end: 100
-    key: 'top'
-    from: -screenHeight
-    to: -350
-    format: "%spx"
+    key: 'transform'
+    from: -screenHeight + 350
+    to: 0
+    format: "translateY(%spx)"
   }
 
   section.transitions(transitions)
