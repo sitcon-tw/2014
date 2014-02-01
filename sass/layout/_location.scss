@@ -1,0 +1,35 @@
+/**
+ * Location
+ */
+
+#location {
+  position: relative;
+}
+
+#location-informaion {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+
+  color: white;
+  background: rgba(black, 0.75);
+
+  .information {
+    @include span-columns(8);
+  }
+
+  .sitcon-jiang {
+    position: relative;
+
+    @include span-columns(4 omega);
+
+    img {
+      position: absolute;
+      top: -350px;
+    }
+  }
+}
