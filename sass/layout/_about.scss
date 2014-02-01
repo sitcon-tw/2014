@@ -3,4 +3,19 @@
  */
 
 #about {
+  position: relative;
+  overflow: hidden;
+
+  .description {
+    @include span-columns(8);
+  }
+}
+
+#about-description {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+
+  color: white;
 }

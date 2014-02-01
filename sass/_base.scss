@@ -14,3 +14,7 @@ body {
 }
 
 @include establish-baseline;
+
+.container {
+  @include container;
+}
