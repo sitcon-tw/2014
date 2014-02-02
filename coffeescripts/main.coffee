@@ -141,7 +141,7 @@ page.section SECTIONS.ABOUT, (section) ->
 
   section.on "progress", (percent)->
     from = screenHeight
-    to = screenHeight / 2 + 60
+    to = screenHeight / 2 - aboutDescriptionHeight / 2 + 60
     if percent <= 100
       aboutBG.y((to - from) / 100 * percent + from)
 
@@ -151,7 +151,7 @@ page.section SECTIONS.ABOUT, (section) ->
     end: 100
     key: 'transform'
     from: screenHeight
-    to: screenHeight / 2 + 24
+    to: screenHeight / 2 - aboutDescriptionHeight / 2 + 24
     format: "translateY(%spx)"
   }
 
