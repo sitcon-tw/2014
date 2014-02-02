@@ -3,6 +3,7 @@
 ###
 
 $window = $(window)
+$dom = $("html, body")
 screenWidth = $window.width()
 screenHeight = $window.height()
 $menu = $("#main-menu ul")
@@ -102,24 +103,27 @@ page = sections.create({
 
 page.section SECTIONS.LANDING, (section) ->
   section.on "scrollIn", () ->
+    resetMenuActiveItem()
     $menu.removeClass "fixed"
+    $dom.removeClass "fixed"
 
 page.section SECTIONS.NAVIGATION, (section) ->
-  section.on "scrollIn", ()->
-    resetMenuActiveItem()
+  section.on "scrollIn", (way)->
+    setMenuActiveItem(0)
     $menu.addClass "fixed"
+    $dom.addClass "fixed"
+    if way is -1
+      $dom.scrollTop($dom.scrollTop() + 60)
 
 page.section SECTIONS.ABOUT, (section) ->
   transitions = []
-
-  section.on "scrollOut", ()->
 
   section.on "scrollIn", ()->
     setMenuActiveItem(0)
 
   section.on "progress", (percent)->
     from = screenHeight
-    to = screenHeight / 2
+    to = screenHeight / 2 + 60
     if percent <= 100
       aboutBG.y((to - from) / 100 * percent + from)
 
@@ -128,8 +132,8 @@ page.section SECTIONS.ABOUT, (section) ->
     start: 0
     end: 100
     key: 'transform'
-    from: screenHeight - 50
-    to: screenHeight / 2 - 50
+    from: screenHeight
+    to: screenHeight / 2
     format: "translateY(%spx)"
   }
 
@@ -148,7 +152,7 @@ page.section SECTIONS.LOCATION, (section) ->
     start: 0
     end: 100
     key: 'transform'
-    from: -screenHeight + 350
+    from: -screenHeight + 450
     to: 0
     format: "translateY(%spx)"
   }

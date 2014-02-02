@@ -4,13 +4,16 @@ html, body {
   height: 100%;
 }
 
-body {
-  font-family: "LantingHei TC", "Apple LiGothic", sans-serif;
-  @include font-smoothing(on);
-
+html {
   &.fixed {
     padding-top: 60px;
+    // @include transition(500ms ease-in);
   }
+}
+
+body {
+  font-family: "XinGothic-TC W6", "LantingHei TC", "Apple LiGothic", sans-serif;
+  @include font-smoothing(on);
 }
 
 @include establish-baseline;
