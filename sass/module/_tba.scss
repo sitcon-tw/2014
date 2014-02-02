@@ -1,0 +1,40 @@
+/**
+ * To Be Announced Module
+ */
+
+.module.to-be-announced {
+  position: relative;
+  height: 100%;
+
+  overflow: hidden;
+
+  color: $secondaryColor;
+  text-align: center;
+
+  @include adjust-font-size-to(32px, 1.5);
+
+  .inner {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    right: -10%;
+
+    margin-top: -3.5em;
+    height: 7em;
+
+    background: $primaryColor;
+
+    @include rotateZ(-0.45deg);
+
+    &.invert {
+      color: $primaryColor;
+      background: $secondaryColor;
+    }
+  }
+
+  .message {
+    margin-top: 3em;
+    @include rotateZ(0.45deg);
+  }
+}
+
