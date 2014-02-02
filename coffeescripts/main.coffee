@@ -7,7 +7,7 @@ $dom = $("html, body")
 screenWidth = $window.width()
 screenHeight = $window.height()
 $menu = $("#main-menu ul")
-$menuItems = $menu.children()
+$menuItems = $menu.children('.item')
 $menuItem = [
   $($menuItems[0])
   $($menuItems[1])
@@ -16,6 +16,15 @@ $menuItem = [
   $($menuItems[4])
   $($menuItems[5])
 ]
+
+$sections = {
+  "#about": $("#about")
+  "#location": $("#location")
+  "#speaker": $("#speaker")
+  "#schedule": $("#schedule")
+  "#sponsor": $("#sponsor")
+  "#team": $("#team")
+}
 
 # About
 $aboutDescription = $("#about-description")
@@ -42,6 +51,10 @@ calcSITCONJiangTop = ()->
     return 0
   else
     screenHeight - sitconJiangHeight + 50
+
+###
+# Navigation
+###
 
 ###
 # About Section
@@ -101,17 +114,22 @@ page = sections.create({
   autoSectionHeight: false
 })
 
+page.on 'changed', (current, previous)->
+  pageID = current.element.id
+  if pageID is "landing"
+    $menu.removeClass "fixed"
+    $dom.removeClass "fixed"
+  else
+    $menu.addClass "fixed"
+    $dom.addClass "fixed"
+
 page.section SECTIONS.LANDING, (section) ->
   section.on "scrollIn", () ->
     resetMenuActiveItem()
-    $menu.removeClass "fixed"
-    $dom.removeClass "fixed"
 
 page.section SECTIONS.NAVIGATION, (section) ->
   section.on "scrollIn", (way)->
     setMenuActiveItem(0)
-    $menu.addClass "fixed"
-    $dom.addClass "fixed"
     if way is -1
       $dom.scrollTop($dom.scrollTop() + 60)
 
@@ -133,7 +151,7 @@ page.section SECTIONS.ABOUT, (section) ->
     end: 100
     key: 'transform'
     from: screenHeight
-    to: screenHeight / 2
+    to: screenHeight / 2 + 24
     format: "translateY(%spx)"
   }
 
