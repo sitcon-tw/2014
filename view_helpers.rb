@@ -36,7 +36,7 @@ module ViewHelpers
   end
 
   def avatar_image(avatar_url, size = 150, html_options = {})
-    avatar_url = "http://www.gravatar.com/avatar/?d=mm&s=#{size}" if avatar_url.nil?
+    avatar_url = "speakers/default.png" if avatar_url.nil?
     avatar_url = "http://www.gravatar.com/avatar/#{avatar_url[2..-1]}?d=mm&s=#{size}" if avatar_url =~ /^(g:)/
     image_tag(avatar_url, html_options)
   end
