@@ -81,7 +81,7 @@ $window.on "resize", ()->
 ###
 
 loadMap = ()->
-  mapLatLng = new google.maps.LatLng(25.0422145, 121.6141917)
+  mapLatLng = new google.maps.LatLng(25.0410096, 121.6118796)
   mapOptions = {
     center: mapLatLng
     zoom: 19
