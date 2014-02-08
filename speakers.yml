@@ -1,0 +1,138 @@
+- name: 陳鍾誠教授
+  avatar: null
+  bio: >
+    <p>陳鍾誠教授目前任教於金門大學資工系，喜歡寫「網誌、程式與電子書」，不喜歡「寫論文與接國科會計畫」。</p>
+    <p>現在負責主編「程式人雜誌」，同時撰寫一系列 「電子資訊領域的創作共用電子書」 ，並且致力於執行沒有經費的「 開放電腦計畫 」， 希望透過這些既有知識的傳播改變台灣的大學教育，讓下一代具備堅強的實務能力。</p>
+    <p>已經準備好被開除後要去做「 科學玩具與書籍 」，希望下一代能透過這些書籍與玩具學會已知的技術，為台灣的科學教育保留一點點希望的種子。</p>
+  talk:
+    - keynote1
+- name: 鄭永斌教授
+  avatar: null
+  bio: >
+    <p>鄭永斌教授於西元2000自美國普渡大學電腦科學系畢業之後，分別任教於台師大以及中央大學迄今。</p>
+    <p>他的研究專長領域為軟體工程，尤其是喜歡提出新技術，解決實務軟體開發過程中，程式設計人員所面臨的痛苦。</p>
+  talk:
+    - keynote2
+- talk:
+  - talk1-2
+  name: 蒼時弦也
+  avatar: g:888339de9e7a88688b6acb30d33e66cd
+  bio: >
+    <p>現為銘傳大學數位媒體設計系學生，但是不知道為什麼一直在寫 Code。</p>
+- talk:
+  - talk1-0
+  name: Pichu Chen
+  avatar: null
+  bio: >
+    <p>目前為中山大學資工系碩一學生</p>
+    曾任：
+    <ul>
+    <li>中山大學 CDPA 網管、會長</li>
+    <li>中山大學資工系網管（預計二月交接，因此 SITCON 當下應該是卸任了）</li>
+    </ul>
+    現任：
+    <ul>
+    <li>中山大學宿委會棟長</li>
+    <li>中山大學 Formosa BBS、西灣 BBS 系統站長</li>
+    </ul>
+- talk:
+    - talk1-1
+  name: Mr.Q
+  avatar: null
+  bio: >
+    <p>國立交作業大學程序猿系大三牲<br />
+    喜歡自由軟體與 Open Source<br />
+    對資訊科技相關的事物都有興趣但懂得不多<br />
+    只是個平凡的麻瓜 請多多指教<br />
+    <!-- We will design some icon for personal site, facebook, etc ... -></p>
+- talk:
+    - short_talk1-2
+  name: Jeffrey Lin
+  avatar: null
+  bio: >
+    一個喜歡寫遊戲和設計的電腦人，喜歡背 圓週率（pi）
+- talk:
+  - short_talk1-0
+  name: jserv
+  avatar: null
+  bio: >
+    <p>還在唸大學，只是大學三年級唸了 12 年。求學階段陸續開發了若干世界級的開放原始碼專案，擔任了聯發科、工研院等單位的顧問，並在大學兼課，過去專注於消費性電子產品的研發，目前則投入醫療電子領域。</p>
+- talk:
+  - short_talk1-1
+  name:  LegBone（蔡耀德）
+  avatar: null
+  bio: >
+    <p>本業是廚師， coder 的身份只是掩飾，平常最大的興趣就是到處亂拆，debug 只是為了世界和平，來自傳說中的黑暗料理界
+- talk:
+  - short_talk2-2
+  name: Allen Chou
+  avatar: null
+  bio: >
+    <p>一個標準宅男，在國小時意外接觸到程式，然後就從此著迷在程式的世界無法自拔，除了程式以外一點才能都沒有，目前會PHP、C++、jQuery等等</p>
+- talk:
+  - short_talk2-0
+  name: andytwmvp
+  avatar: null
+  bio: >
+    <p>充滿好奇、興趣廣泛，並且嗜棒球如命的資工系學生。上大學之後開始熱愛學習，視知識浩瀚而感到雀躍不已。冀望藉由知識的學習，了解並分享所學，進而幫助社會。</p>
+- talk:
+  - short_talk2-1
+  name: Yanyiyi（雁之翼）
+  avatar: null
+  bio: >
+    <p>自認是跨領域設計師，喜歡寫網站，目前自組工作室接學校小網站維生，喜歡向量圖，最近在練習 inkscape，喜歡動手做把腦袋想像的玩具自己打造出來，所以試著學習程式和電子電路，努力能夠畢業的菸酒生狀態。</p>
+- talk:
+  - short_talk3-2
+  name: 願い星
+  avatar: null
+  bio: >
+    <p>台北實踐大學大三生
+    路邊隨處可見的懵懂大學生，對於各種軟體技術都有興趣，各方面嘗試中，目前最有興趣的是 Golang, Qt。</p>
+    <p>Found me: Golang.tw, Qt Taiwan 。</p>
+- talk:
+  - short_talk3-0
+  - talk3-0
+  name: David Kuo (Davy)
+  avatar: null
+  bio: >
+    <p>David Kuo (郭子德)，常用的帳號是 david50407<br />
+    目前就讀於國立中央大學資管系一年級，但對程式及網頁開發有著濃厚的興趣，目前較常接觸 HTML/CSS、PHP、C#、Ruby，多方涉獵中 . _ .<br />
+    小趴家的貓 / 網管 / 打雜的 / 拿東西的</p>
+- talk:
+  - short_talk3-1
+  name: SyneArt
+  avatar: null
+  bio: >
+    <p>SyneArt，平凡大學生一枚，喜歡研究程式，平時以寫程式為樂，設計為趣，有接不完的 Case，但都是義務性幫忙居多，目前朝著開源的方向前進，還有一個部落格: art.twgg.org。</p>
+- talk:
+  - talk2-2
+  name: RSChiang
+  avatar: null
+  bio: >
+    <p>RSChiang，目前就讀於臺灣大學法律學系，曾任 SITCON 2013 行政組長。去年還在善導寺高中刻人工智慧，某天突然轉職成鍵盤法律人。被問起為什麼要在學校推廣開源概念？大概是為了不辜負爺爺的名聲吧。</p>
+- talk:
+  - talk2-0
+  name: 聽。風
+  avatar: null
+  bio: >
+    <p>我是林熙哲，因為各種原因一頭栽進程式的世界，我對 PHP、C# 等程式語言有興趣，之後想研究 Ruby on Rails，歡迎有興趣的朋友找我討論，另外我目前有在做一個「活動公告平台」，會在本次SITCON的閃電秀中做介紹。</p>
+- talk:
+  - talk2-1
+  name: JSON
+  avatar: null
+  bio: >
+    <p>台科大資工系學生，曾獲得全國技能競賽網頁設計金牌至此熱愛 Web/程式開發，對於不滿的現狀總有開發的想法，喜歡學習各種潮流技術 ，是Web開發愛好者，因為它能夠快速將想法呈現給使用用者，平常以 RoR 進行 Web 開發，為 MeowDev 成員。關於我：http://blog.developer.tw。</p>
+- talk:
+  - talk3-2
+  name: Zuan
+  avatar: null
+  bio: >
+    <p>Zuan， 本名陳立中， 目前是就讀台科大不分系大五， 是chr00t資安社群成員， 專長為逆向工程及 rootkit 等資安領域。</p>
+    <p>2006 左右活耀於 Cheat Engine Forum， 為其Underground成員， 當時主要研究楓之谷外掛，
+    專注於破解 nProtect GameGuard， 寫了當年廣為使用的MzBot。</p>
+- talk:
+  - talk3-1
+  name: BBC
+  avatar: null
+  bio: >
+    <p>justfont blog 主編，字戀粉絲團 B 編，臺大中文畢，政大數位內容碩二，字體控暨影迷，但不太讀書。消費內容之餘也生產內容。</p>
