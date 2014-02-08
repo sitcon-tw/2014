@@ -1,0 +1,164 @@
+{
+    "總召組": {
+        "denny0223": {
+            "name": "Denny Huang",
+            "title": "總召",
+            "avatar": "g:9c08215f31eb6005a25be6521bf47b0a"
+        },
+        "mousems.kuo": {
+            "name": "MouseMs",
+            "title": "副召",
+            "avatar": "g:457cbd33a97ba5dad4cc9b177fad0da6"
+        },
+        "j100002ben": {
+            "name": "波卡Poka",
+            "title": "行銷股贊助",
+            "avatar": "g:296ec9c4dc557c85ef8ca6feaa956c98"
+        },
+        "mr.lin.clarence": {
+            "name": "Clarence",
+            "title": "行銷股公關",
+            "avatar": "g:1cef2c5a606938ebad117ba899ee6b5f"
+        }
+    },
+    "行政組": {
+        "RSChiang": {
+            "name": "RSChiang",
+            "title": "行政組長",
+            "avatar": "g:b3ecf4287d58054135af5d7b4d741021"
+        },
+        "chandrew1119": {
+            "name": "Ch.Andrew",
+            "title": "行政組人事",
+            "avatar": "g:252ed801f45f55ee05aeced3371dfa45"
+        },
+        "Oscar": {
+            "name": "Oscar",
+            "title": "行政組檔案",
+            "avatar": "g:c7fc9eee61d15190efcddf8e5bcaabeb"
+        },
+        "lyc0421": {
+            "name": "影子",
+            "title": "行政組社群",
+            "avatar": "g:6e6bcadb0cf769a8d4f4c02a62c74295"
+        },
+        "jeremy5189": {
+            "name": "Jeremy Yen",
+            "title": "行政組票務",
+            "avatar": "g:ea3f65db2b33fad0b573b3c25775f3aa"
+        },
+        "elct9620": {
+            "name": "蒼時弦也",
+            "title": "文創股長",
+            "avatar": "g:888339de9e7a88688b6acb30d33e66cd"
+        },
+        "telutszu": {
+            "name": "Telu",
+            "title": "文創青年",
+            "avatar": "g:ed0b380561df4f7031c116d3fbe0b653"
+        },
+        "oabb1388": {
+            "name": "雁子",
+            "title": "文創青年",
+            "avatar": "g:d2a390382a4d3d5cf17740ffbd914942"
+        }
+    },
+    "議程組": {
+        "pellaeon": {
+            "name": "Pellaeon",
+            "title": "議程組長",
+            "avatar": "g:883be3137cf256de269737722f2ee350"
+        },
+        "nphard001": {
+            "name": "韜哥",
+            "title": "議程組員",
+            "avatar": "g:3e5a63eb62e691c413a6f8dba1a0e8f5"
+        },
+        "lee2041412": {
+            "name": "Miller",
+            "title": "議程組員",
+            "avatar": "g:f2fad77c24dbbc45e83f2da988d32150"
+        },
+        "joy1357924680": {
+            "name": "阿飄",
+            "title": "議程組員",
+            "avatar": "g:13d4847bc8f942c166afb802270f8a16"
+        },
+        "a86487817": {
+            "name": "Takeshi",
+            "title": "議程組員",
+            "avatar": "g:b721195e879c1ccab06a714f9d15b1da"
+        },
+        "every85713": {
+            "name": "泰泰",
+            "title": "議程組員",
+            "avatar": "g:2d2de640b757b0442eefc95cee106337"
+        }
+    },
+    "場務組": {
+        "jim2ylin": {
+            "name": "下午",
+            "title": "場務組長",
+            "avatar": "g:5bca79fe330ffda61b1f6d5e0b279aeb"
+        },
+        "c22222200": {
+            "name": "崑元",
+            "title": "場務副組長",
+            "avatar": "g:cadc057afc057373a9675da020663393"
+        },
+        "PingNote.Wu": {
+            "name": "小平",
+            "title": "場務組餐飲",
+            "avatar": "g:c8e554d91577a152d5dadfa0a882c2ad"
+        },
+        "scwuaptx": {
+            "name": "AngelBoy",
+            "title": "場務組門機",
+            "avatar": "g:cab798ff74597f6784c628b4119bbd2f"
+        },
+        "e04e04qwe": {
+            "name": "帝王",
+            "title": "場務組紀錄",
+            "avatar": "g:b0206a288d398db7a8252ffa14547a07"
+        },
+        "horace.chuang": {
+            "name": "阿霍",
+            "title": "場務組紀錄",
+            "avatar": "g:cbabc621abdb7c825c5922dfea3c5b4a"
+        },
+        "yilang22444": {
+            "name": "Breezr",
+            "title": "場務組紀錄",
+            "avatar": "g:2edb49fbad2ab9658e65bf3e76225f61"
+        },
+        "littledairylee": {
+            "name": "小代",
+            "title": "場務組紀錄",
+            "avatar": "g:03941b09baa04ddbce792c1c608d276f"
+        }
+    },
+    "財務組": {
+        "linroex": {
+            "name": "聽風",
+            "title": "財務組長",
+            "avatar": "g:3c55fae3843681f1452761396c6a417f"
+        }
+    },
+    "線路組": {
+        "HenryYang": {
+            "name": "Henry",
+            "title": "線路組長",
+            "avatar": "g:e48646638717edea3b110182c4f47a36"
+        },
+        "ming": {
+            "name": "Ming",
+            "title": "線路組員",
+            "avatar": "g:4f1090c3d5990957bfbaf7b35d5e4e71"
+        },
+        "frankwu100": {
+            "name": "FrankWu",
+            "title": "線路組員",
+            "avatar": "g:240e508e56aa36c32fcffadeff0a9ee3"
+        }
+    }
+}

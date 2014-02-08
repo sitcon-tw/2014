@@ -17,6 +17,11 @@ module ViewHelpers
     data
   end
 
+  def team
+    data ||= JSON.parse(IO.read(File.join(File.dirname(__FILE__), "team.json")))
+    data
+  end
+
   def enable_analytics?
     config['analytics']['enabled']
   end

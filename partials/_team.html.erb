@@ -4,4 +4,24 @@
       <h2>Team</h2>
     </div>
   </header>
+  <div class="team-members">
+    <% team.each do |group_name, group| %>
+    <div class="container">
+      <h2 class="header"><%= group_name %></h2>
+    </div>
+    <div class="container">
+      <% group.each do |id, member| %>
+      <aside class="member">
+        <div class="avatar">
+          <%= link_to avatar_image(member["avatar"], 150, :class => "round"), "http://me.sitcon.org/#{id}", :class => "link", :href => "_blank" %>
+        </div>
+        <h4 class="nickname">
+          <%= member["name"] %>
+          <span class="sub-header title"><%= member["title"] %></span>
+        </h4>
+      </aside>
+      <% end %>
+    </div>
+    <% end %>
+  </div>
 </div>

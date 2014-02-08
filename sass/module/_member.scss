@@ -1,0 +1,43 @@
+/**
+ * Team Member Module
+ */
+
+.team-members {
+  .header {
+    padding: 0.5em;
+    color: $secondaryColor;
+    background: $primaryColor;
+
+    @include rhythm(0.5, 0.25, 0.25, 0.5);
+    @include border-radius($borderRadius 0 0 0);
+  }
+}
+
+.member {
+  margin-bottom: 0.5em;
+
+  text-align: center;
+
+  @include isolate-grid(3);
+
+  .nickname, .title {
+    display: block;
+  }
+
+  .avatar .link {
+    @include filter(grayscale(100%));
+    @include transition(250ms ease-in);
+
+    &:hover, &:focus, &:active {
+      @include filter(grayscale(0%));
+    }
+  }
+
+  .nickname {
+    @include rhythm(0.5, 0, 0, 0.5);
+  }
+
+  .title {
+    color: adjust-lightness($thirdColor, 45%);
+  }
+}
