@@ -9,3 +9,33 @@
     @include adjust-font-size-to(16px, 1.5, 32px);
   }
 }
+
+.module.header {
+  position: relative;
+
+  width: 120%;
+
+  padding-top: 3.5em;
+  padding-bottom: 1.5em;
+  margin-top: -2em;
+  margin-left: -10%;
+
+  background: $primaryColor;
+  color: $secondaryColor;
+
+  @include rotateZ(-1.25deg);
+
+  h2 {
+    @include rotateZ(1.25deg);
+    @include adjust-font-size-to(32px, 1.5);
+  }
+
+  &.invert {
+    background: $secondaryColor;
+    color: $primaryColor;
+  }
+
+  &.dark {
+    background: $thirdColor;
+  }
+}

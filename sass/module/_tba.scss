@@ -8,7 +8,7 @@
 
   overflow: hidden;
 
-  color: $secondaryColor;
+  color: $primaryColor;
   text-align: center;
 
   @include adjust-font-size-to(32px, 1.5);
@@ -22,19 +22,13 @@
     margin-top: -3.5em;
     height: 7em;
 
-    background: $primaryColor;
-
-    @include rotateZ(-0.45deg);
-
     &.invert {
-      color: $primaryColor;
-      background: $secondaryColor;
+      color: $secondaryColor;
     }
   }
 
   .message {
     margin-top: 3em;
-    @include rotateZ(0.45deg);
   }
 }
 

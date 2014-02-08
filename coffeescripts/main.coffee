@@ -184,15 +184,6 @@ page.section SECTIONS.SPEAKER, (section) ->
   section.on "scrollIn", ()->
     setMenuActiveItem(2)
 
-  transitions.push {
-    target: section.element
-    start: 0
-    end: 100
-    key: 'opacity'
-    from: 0
-    to: 1
-  }
-
   section.transitions(transitions)
 
 page.section SECTIONS.SCHEDULE, (section) ->
@@ -200,15 +191,6 @@ page.section SECTIONS.SCHEDULE, (section) ->
 
   section.on "scrollIn", ()->
     setMenuActiveItem(3)
-
-  transitions.push {
-    target: section.element
-    start: 0
-    end: 100
-    key: 'opacity'
-    from: 0
-    to: 1
-  }
 
   section.transitions(transitions)
 

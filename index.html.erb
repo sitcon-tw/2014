@@ -11,12 +11,21 @@
   <%= render "partials/location" %>
 </section>
 <section id="speaker" class="section as-one-page">
-  <%= render "partials/tba" %>
+  <%= render "partials/speakers" %>
 </section>
 <section id="schedule" class="section as-one-page">
-  <%= render "partials/tba_invert", :inv => true %>
+  <div class="inner">
+    <header class="header module">
+      <div class="container">
+        <h2>Schedule</h2>
+      </div>
+    </header>
+    <%= render "partials/tba" %>
+  </div>
 </section>
-<section id="sponsor" class="section as-page">
+<section id="sponsor" class="section as-one-page">
+  <%= render "partials/sponsor" %>
 </section>
 <section id="team" class="section as-page">
+  <%= render "partials/team" %>
 </section>

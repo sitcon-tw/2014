@@ -4,8 +4,18 @@
 
 .as-one-page {
   height: 100%;
+
+  .inner {
+    height: 100%;
+    overflow: hidden;
+  }
 }
 
 .as-page {
   min-height: 100%;
+
+  .inner {
+    min-height: 100%;
+    overflow: hidden;
+  }
 }
