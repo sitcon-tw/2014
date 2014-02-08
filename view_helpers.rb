@@ -35,9 +35,13 @@ module ViewHelpers
     tag(:img, html_options.merge(:src=>src))
   end
 
-  def avatar_image(avatar_url, size = 150)
+  def avatar_image(avatar_url, size = 150, html_options = {})
     avatar_url = "http://www.gravatar.com/avatar/?d=mm&s=#{size}" if avatar_url.nil?
     avatar_url = "http://www.gravatar.com/avatar/#{avatar_url[2..-1]}?d=mm&s=#{size}" if avatar_url =~ /^(g:)/
-    image_tag(avatar_url)
+    image_tag(avatar_url, html_options)
+  end
+
+  def link_to_talk(talk_id, html_options = {})
+    link_to sessions[talk_id]["title"], "##{talk_id}", html_options
   end
 end

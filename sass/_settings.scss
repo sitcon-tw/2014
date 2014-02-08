@@ -1,10 +1,20 @@
-// Color Schema
+/**
+ * Settings
+ */
 
+// Font Settings
+$normalFont: "XinGothic-TC W6", "LantingHei TC", "Apple LiGothic", sans-serif;
+$lightFont: "XinGothic-TC W4", "LantingHei TC", "Apple LiGothic", sans-serif;
+
+// Color Schema
 $primaryColor: #7cb059;
 $secondaryColor: white;
 $thirdColor: black;
 
 // Menu Colors
-
 $main-menu-color: white;
 $main-menu-bg: #232323;
+
+// Display
+$borderRadius: 5px;
+$largeBorderRadius: 10px;

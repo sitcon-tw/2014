@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: "XinGothic-TC W6", "LantingHei TC", "Apple LiGothic", sans-serif;
+  font-family: $normalFont;
   @include font-smoothing(on);
 }
 

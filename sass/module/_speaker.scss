@@ -1,0 +1,72 @@
+/**
+ * Speaker Module
+ */
+
+// Speaker
+.speaker {
+  margin-bottom: 3.5em;
+
+  .avatar.column {
+    text-align: center;
+
+    @include span-columns(3);
+  }
+
+  .biography.column {
+    @include span-columns(9 omega);
+  }
+}
+
+// Avatar
+.avatar > img {
+  @include box-shadow(2px 2px 5px adjust-lightness($thirdColor, 95%));
+
+  &.round {
+    @include border-radius($borderRadius);
+
+    &.large {
+      @include border-radius($largeBorderRadius);
+    }
+  }
+
+  &.ellipse {
+    @include border-radius(50%);
+  }
+}
+
+
+
+// Biography
+.biography {
+  font-family: $lightFont;
+  @include adjust-font-size-to(14px, 1.05);
+
+  h3 {
+    font-family: $normalFont;
+    @include adjust-font-size-to(18px, 1.05, 14px);
+  }
+}
+
+
+
+// Link
+.talk.link {
+  display: inline-block;
+
+  padding: 0.25em 1em;
+  margin-right: 0.5em;
+
+  text-decoration: none;
+  color: $secondaryColor;
+  background: $primaryColor;
+  letter-spacing: 0.1em;
+
+  @include text-shadow(0px 0px 3px rgba($secondaryColor, 0.5));
+  @include border-radius(0px 0px $borderRadius 0px);
+  @include transition(100ms ease-in);
+
+  &:hover, &:focus, &:active {
+    @include text-shadow(none);
+    @include box-shadow(0px 0px 5px $primaryColor);
+  }
+}
