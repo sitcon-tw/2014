@@ -171,6 +171,31 @@ page.section SECTIONS.LOCATION, (section) ->
 page.section SECTIONS.SPEAKER, (section) ->
   transitions = []
 
+  speakers = $("#speaker .speaker")
+  speakersCount = speakers.length
+
+  for speaker, index in speakers
+    start = 20 + index * (100 / speakersCount)
+    transitions.push {
+      target: speaker
+      start: start
+      end: start + 50
+      key: 'opacity'
+      from: 0
+      to: 1
+    }
+    transitions.push {
+      target: speaker
+      start: start
+      end: start + 50
+      key: 'transform'
+      from: 100
+      to: 0
+      format: "translateY(%spx)"
+      afterCalculate: (val) ->
+        val = (val / 100) * screenWidth
+    }
+
   section.on "scrollIn", ()->
     setMenuActiveItem(2)
 
