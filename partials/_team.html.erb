@@ -13,7 +13,7 @@
       <% group.each do |id, member| %>
       <aside class="member">
         <div class="avatar">
-          <%= link_to avatar_image(member["avatar"], 150, :class => "round"), "http://me.sitcon.org/#{id}", :class => "link", :href => "_blank" %>
+          <%= link_to avatar_image(member["avatar"], 150, :class => "round"), "http://me.sitcon.org/#{id}", :class => "link", :target => "_blank" %>
         </div>
         <h4 class="nickname">
           <%= member["name"] %>
