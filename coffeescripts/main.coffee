@@ -26,10 +26,6 @@ $sections = {
   "#team": $("#team")
 }
 
-# About
-$aboutDescription = $("#about-description")
-aboutDescriptionHeight = $aboutDescription.height()
-
 # Location
 $mapCanva = document.querySelector("#map-canva")
 
@@ -44,13 +40,9 @@ setMenuActiveItem = (index) ->
   resetMenuActiveItem()
   $menuItem[index].addClass "active"
 
-sitconJiangWidth = 584
-sitconJiangHeight = 687
-calcSITCONJiangTop = ()->
-  if screenHeight <= sitconJiangHeight
-    return 0
-  else
-    screenHeight - sitconJiangHeight + 50
+$window.on 'resize', ()->
+  screenWidth = $window.width()
+  screenHeight = $window.height()
 
 ###
 # Navigation
@@ -60,21 +52,6 @@ calcSITCONJiangTop = ()->
 # About Section
 ###
 
-primaryColor = "#7cb059"
-
-aboutSVG = SVG("about-svg")
-sitconJiang = aboutSVG.image("images/sitcon_jiang.png", 584, 687).move(screenWidth * 0.9 - sitconJiangWidth, calcSITCONJiangTop())
-aboutBG = aboutSVG.polygon("0,0 #{screenWidth * 0.75},0 #{screenWidth * 0.65},#{aboutDescriptionHeight * 1.2} 0,#{aboutDescriptionHeight * 1.2}").fill(primaryColor)
-aboutBG.y(screenHeight)
-sitconJiangLine = aboutSVG.image("images/sitcon_jiang_line.png", 584, 687).move(screenWidth * 0.9 - sitconJiangWidth, calcSITCONJiangTop())
-
-$window.on "resize", ()->
-  screenWidth = $window.width()
-  screenHeight = $window.height()
-  aboutDescriptionHeight = $aboutDescription.height()
-  aboutBG.size(screenWidth * 0.75, aboutDescriptionHeight * 1.2)
-  sitconJiang.move(screenWidth * 0.9 - sitconJiangWidth, calcSITCONJiangTop())
-  sitconJiangLine.move(screenWidth * 0.9 - sitconJiangWidth, calcSITCONJiangTop())
 
 ###
 # Location
@@ -136,27 +113,38 @@ page.section SECTIONS.NAVIGATION, (section) ->
 page.section SECTIONS.ABOUT, (section) ->
   transitions = []
 
+  aboutDescription = document.querySelector("#about-description")
+  sitconJiangElements = [document.querySelector("#about"), document.querySelector("#about .overlay.cg")]
+
   section.on "scrollIn", ()->
     setMenuActiveItem(0)
 
-  section.on "progress", (percent)->
-    from = screenHeight
-    to = screenHeight / 2 - aboutDescriptionHeight / 2 + 60
-    if percent <= 100
-      aboutBG.y((to - from) / 100 * percent + from)
-
   transitions.push {
-    target: $aboutDescription[0]
+    target: aboutDescription
     start: 0
     end: 100
     key: 'transform'
-    from: screenHeight
-    to: screenHeight / 2 - aboutDescriptionHeight / 2 + 24
+    from: 100
+    to: 50
     format: "translateY(%spx)"
+    afterCalculate: (val) ->
+      return (val / 100) * screenHeight
   }
 
-  section.transitions(transitions)
+  for element in sitconJiangElements
+    transitions.push {
+      target: element
+      start: 0
+      end: 100
+      key: 'background-position-y'
+      from: -100
+      to: 40
+      format: "%spx"
+      afterCalculate: (val) ->
+        return (val / 100) * screenHeight
+    }
 
+  section.transitions(transitions)
 
 page.section SECTIONS.LOCATION, (section) ->
   transitions = []
@@ -170,9 +158,11 @@ page.section SECTIONS.LOCATION, (section) ->
     start: 0
     end: 100
     key: 'transform'
-    from: -screenHeight + 450
+    from: -50
     to: 0
     format: "translateY(%spx)"
+    afterCalculate: (val) ->
+      val = (val / 100) * screenHeight
   }
 
   section.transitions(transitions)
