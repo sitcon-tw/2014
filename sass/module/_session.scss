@@ -67,11 +67,11 @@
       margin-right: 1em;
     }
 
-    &.keynote, &.talk, &.panel {
+    &.keynote, &.talk, &.short-talk, &.lighting-talk, &.panel {
       background: adjust-hue($primaryColor, -85deg);
     }
 
-    &.r0, &.r1, &.r2 {
+    &.r0, &.r1, &.r2, &.social-room {
       background: adjust-hue($primaryColor, 120deg);
     }
   }

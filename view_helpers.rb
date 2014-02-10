@@ -58,6 +58,27 @@ module ViewHelpers
     result
   end
 
+  def schedule_tag(tag)
+    case tag
+    when "Social-Room"
+      return "交誼廳"
+    when "Lighting-Talk"
+      return "Lighting Talk"
+    when "Short-Talk"
+      return "Short Talk"
+    when "Panel"
+      return "座談會"
+    when "R1"
+      return "第一會議室"
+    when "R2"
+      return "第二會議室"
+    when "R0"
+      return "國際會議室"
+    end
+
+    tag
+  end
+
 
   def enable_analytics?
     config['analytics']['enabled']

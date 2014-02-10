@@ -16,7 +16,7 @@
   <div class="meta">
     <% session["tags"].each do |tag| %>
     <span class="tag <%= "#{tag}".downcase %>">
-      <div class="inner"><%= tag %></div>
+      <div class="inner"><%= schedule_tag(tag) %></div>
     </span>
     <% end %>
   </div>
