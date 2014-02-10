@@ -8,9 +8,10 @@
   border-left: 5px solid $primaryColor;
 
   @include rhythm(0.25, 0.25, 0.25, 0.25);
+  @include box-shadow(0 0 5px adjust-lightness($thirdColor, 95%));
+  @include transition(200ms ease-out box-shadow);
 
   &:hover, &:focus, &:active {
-    @include transition(200ms ease-out);
     @include box-shadow(0 0 5px adjust-lightness($thirdColor, 85%));
   }
 }
@@ -28,6 +29,17 @@
 
     @include rhythm(0.25, 0.15, 0.15, 0.25);
     @include border-radius($borderRadius);
+  }
+
+  .detial {
+    max-height: 0px;
+    overflow: hidden;
+
+    @include transition(250ms);
+
+    &.active {
+      max-height: 1000px;
+    }
   }
 
   .meta {
@@ -55,12 +67,20 @@
       margin-right: 1em;
     }
 
-    &.keynote, &.talk, &.forum {
+    &.keynote, &.talk, &.panel {
       background: adjust-hue($primaryColor, -85deg);
     }
 
     &.r0, &.r1, &.r2 {
       background: adjust-hue($primaryColor, 120deg);
+    }
+  }
+
+  &:hover, &:active, &:focus {
+    .detial {
+      max-height: 1000px;
+
+      @include transition(1s ease-out max-height);
     }
   }
 }

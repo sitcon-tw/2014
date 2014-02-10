@@ -10,6 +10,9 @@
       <% end %>
     </div>
   </h4>
+  <div class="detial">
+    <%= session["detial"] %>
+  </div>
   <div class="meta">
     <% session["tags"].each do |tag| %>
     <span class="tag <%= "#{tag}".downcase %>">
