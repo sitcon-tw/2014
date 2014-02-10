@@ -3,7 +3,7 @@
 ###
 
 $window = $(window)
-$dom = $("html, body")
+$dom = $("html")
 screenWidth = $window.width()
 screenHeight = $window.height()
 $menu = $("#main-menu ul")
