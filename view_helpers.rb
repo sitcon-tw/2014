@@ -60,7 +60,7 @@ module ViewHelpers
 
   def schedule_tag(tag)
     case tag
-    when "Social-Room"
+    when "Lounge"
       return "交誼廳"
     when "Lighting-Talk"
       return "Lighting Talk"
@@ -73,7 +73,7 @@ module ViewHelpers
     when "R2"
       return "第二會議室"
     when "R0"
-      return "國際會議室"
+      return "國際會議廳"
     end
 
     tag
