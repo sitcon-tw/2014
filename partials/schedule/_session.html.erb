@@ -1,0 +1,20 @@
+<% session = content_for :session %>
+<article id="<%= content_for :session_id %>" class="talk-type session block">
+  <h4>
+    <%= session["title"] %>
+    <div class="sub-header">
+      <% session["speaker"].each do |id| %>
+      <% if id %>
+        <span class="speaker"><%= speakers[id]["name"] %><span>
+      <% end %>
+      <% end %>
+    </div>
+  </h4>
+  <div class="meta">
+    <% session["tags"].each do |tag| %>
+    <span class="tag <%= "#{tag}".downcase %>">
+      <div class="inner"><%= tag %></div>
+    </span>
+    <% end %>
+  </div>
+</article>
