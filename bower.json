@@ -1,0 +1,24 @@
+{
+  "name": "SITCON-2014",
+  "version": "1.0.0",
+  "homepage": "https://github.com/sitcon-tw/2014",
+  "authors": [
+    "蒼時弦也 <elct9620@frost.tw>"
+  ],
+  "description": "SITCON 2014 conference site",
+  "main": "javascripts/main.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.7.1",
+    "sections.js": "~0.1.5",
+    "zepto": "~1.1.2"
+  }
+}

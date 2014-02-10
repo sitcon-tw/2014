@@ -40,6 +40,11 @@ module ViewHelpers
     tag(:img, html_options.merge(:src=>src))
   end
 
+  def javascript_include_tag(src, html_options = {})
+    src = "#{Compass.configuration.javascripts_dir}/#{src}.js" unless src =~ /^(https?:|\/)/
+    content_tag :script, "", html_options.merge(:src => src)
+  end
+
   def avatar_image(avatar_url, size = 150, html_options = {})
     avatar_url = "speakers/default.png" if avatar_url.nil?
     avatar_url = "http://www.gravatar.com/avatar/#{avatar_url[2..-1]}?d=mm&s=#{size}" if avatar_url =~ /^(g:)/
