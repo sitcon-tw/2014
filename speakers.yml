@@ -98,14 +98,6 @@
   biography: >
     <p>目前就讀於中興資工，從高中因為社團接觸 ACM，然後大學開始自學 PHP。主要是後端工程師，前端略有涉略，美工超級不擅長，只是一個小小的網站維護工讀生，請大家多多指教。</p>
 - talk:
-  - talk3-0
-  name: David Kuo (Davy)
-  avatar: http://sitcon.org/2013/images/speakers/13-davy.jpg
-  biography: >
-    <p>David Kuo (郭子德)，常用的帳號是 david50407<br />
-    目前就讀於國立中央大學資管系一年級，但對程式及網頁開發有著濃厚的興趣，目前較常接觸 HTML/CSS、PHP、C#、Ruby，多方涉獵中 . _ .<br />
-    小趴家的貓 / 網管 / 打雜的 / 拿東西的</p>
-- talk:
   - short_talk3-1
   name: SyneArt
   avatar: http://sitcon.org/2013/images/speakers/3-syneart.jpg
@@ -137,6 +129,14 @@
     <p>Zuan， 本名陳立中， 目前是就讀台科大不分系大五， 是chr00t資安社群成員， 專長為逆向工程及 rootkit 等資安領域。</p>
     <p>2006 左右活耀於 Cheat Engine Forum， 為其Underground成員， 當時主要研究楓之谷外掛，
     專注於破解 nProtect GameGuard， 寫了當年廣為使用的MzBot。</p>
+- talk:
+  - talk3-0
+  name: David Kuo (Davy)
+  avatar: http://sitcon.org/2013/images/speakers/13-davy.jpg
+  biography: >
+    <p>David Kuo (郭子德)，常用的帳號是 david50407<br />
+    目前就讀於國立中央大學資管系一年級，但對程式及網頁開發有著濃厚的興趣，目前較常接觸 HTML/CSS、PHP、C#、Ruby，多方涉獵中 . _ .<br />
+    小趴家的貓 / 網管 / 打雜的 / 拿東西的</p>
 - talk:
   - talk3-1
   name: BBC
