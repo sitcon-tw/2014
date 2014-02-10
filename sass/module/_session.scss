@@ -1,0 +1,66 @@
+/**
+ * Session Module
+ */
+
+.session.block {
+  padding: 0.5em;
+  color: $primaryColor;
+  border-left: 5px solid $primaryColor;
+
+  @include rhythm(0.25, 0.25, 0.25, 0.25);
+
+  &:hover, &:focus, &:active {
+    @include transition(200ms ease-out);
+    @include box-shadow(0 0 5px adjust-lightness($thirdColor, 85%));
+  }
+}
+
+.session {
+  .sub-header {
+    @include rhythm(0.25, 0, 0, 0.25);
+    @include adjust-font-size-to(14px, 1.25);
+  }
+
+  .speaker {
+    padding: 0.5em;
+    color: $secondaryColor;
+    background: $primaryColor;
+
+    @include rhythm(0.25, 0.15, 0.15, 0.25);
+    @include border-radius($borderRadius);
+  }
+
+  .meta {
+    text-align: right;
+    @include clearfix;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 1.5em;
+    margin-right: 0.5em;
+
+    color: $secondaryColor;
+    background: $primaryColor;
+
+    @include skewX(-45deg);
+    @include rhythm(0.25, 0, 0, 0.25);
+    @include adjust-font-size-to(14px, 1.25);
+
+    .inner {
+      @include skewX(45deg);
+    }
+
+    &:last-child {
+      margin-right: 1em;
+    }
+
+    &.keynote, &.talk, &.forum {
+      background: adjust-hue($primaryColor, -85deg);
+    }
+
+    &.r0, &.r1, &.r2 {
+      background: adjust-hue($primaryColor, 120deg);
+    }
+  }
+}

@@ -3,6 +3,26 @@
  */
 
 #schedule {
-  position: relative;
-  //background: $primaryColor;
+  padding-bottom: 5em;
+}
+
+.sessions .item {
+
+  .time.header {
+    $headerColor: adjust-lightness($thirdColor, 75%);
+
+    padding-left: 0.5em;
+
+    color: $secondaryColor;
+    background: $primaryColor;
+    border-left: 5px solid $primaryColor;
+
+    @include adjust-font-size-to(18px, 1.2);
+    @include rhythm(0.5, 0.25, 0.15, 0.25);
+    @include border-radius($borderRadius 0 0 0);
+  }
+
+  &:hover {
+
+  }
 }

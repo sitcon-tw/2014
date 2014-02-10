@@ -1,0 +1,26 @@
+<div class="inner">
+  <header class="header module">
+    <div class="container">
+      <h2>Schedule</h2>
+    </div>
+  </header>
+  <div class="schedule">
+    <div class="filter">
+      <!-- Will complete soon -->
+    </div>
+    <div class="sessions">
+      <% schedule.each do |item| %>
+      <div class="item">
+        <div class="container">
+          <div class="time header" data-time="<%= item["time"] %>">
+            <%= item["time"] %>
+          </div>
+        </div>
+        <div class="container session list">
+          <%= render_sessions(item) %>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>

@@ -2,6 +2,11 @@ module ViewHelpers
   def load_yaml(file)
     YAML.load_file(File.join(File.dirname(__FILE__), file))
   end
+
+  def load_json(file)
+    JSON.parse(IO.read(File.join(File.dirname(__FILE__), file)))
+  end
+
   def config
     data ||= load_yaml("config.yml")
     data
@@ -18,9 +23,41 @@ module ViewHelpers
   end
 
   def team
-    data ||= JSON.parse(IO.read(File.join(File.dirname(__FILE__), "team.json")))
+    data ||= load_json("team.json")
     data
   end
+
+  def schedule
+    data ||= load_json("schedule.json")
+    data["schedule"]
+  end
+
+  # Schedule
+  def render_sessions(item)
+    result = ""
+    case item["type"]
+      when "event"
+        content_for :event, item["event"]
+        result = render :partial => "schedule/event"
+      when "break"
+        result = render :partial => "schedule/break"
+      when "session"
+
+       item["sessions"].each do |session_id|
+         content_for :session_id, session_id
+         content_for :session, sessions[session_id]
+         result += render :partial => "schedule/session"
+       end
+    end
+
+    # Clear Content For
+    content_for :event, nil
+    content_for :session_id, nil
+    content_for :session, nil
+
+    result
+  end
+
 
   def enable_analytics?
     config['analytics']['enabled']
