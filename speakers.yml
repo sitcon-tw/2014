@@ -48,7 +48,7 @@
 - talk:
     - short_talk1-2
   name: Jeffrey Lin
-  avatar: null
+  avatar: speakers/jeffrey-lin.jpg
   biography: >
     <p>一個喜歡寫遊戲、網頁和設計的電腦人，喜歡背 圓週率(pi  3.141592653589793238462643383…)，同時喜歡打鼓和彈吉他，平常喜歡幫同學解決一些電腦問題。</p>
 - talk:
@@ -60,13 +60,13 @@
 - talk:
   - short_talk1-1
   name:  LegBone（蔡耀德）
-  avatar: null
+  avatar: speakers/legbone.jpg
   biography: >
     <p>本業是廚師， coder 的身份只是掩飾，平常最大的興趣就是到處亂拆，debug 只是為了世界和平，來自傳說中的黑暗料理界</p>
 - talk:
   - short_talk2-2
   name: 基爾 kir
-  avatar: null
+  avatar: speakers/kir.jpg
   biography: >
     <p>毫無反應，只是個平凡無奇的網管。</p>
     <p>熱愛 FreeBSD 跟 Linux 系統，工讀於滲透了學校的電算中心。趁著大學畢業前，跟幾位
@@ -74,7 +74,7 @@
 - talk:
   - short_talk2-0
   name: andytwmvp
-  avatar: null
+  avatar: speakers/andytwmvp.jpg
   biography: >
     <p>充滿好奇、興趣廣泛，並且嗜棒球如命的資工系學生。上大學之後開始熱愛學習，視知識浩瀚而感到雀躍不已。冀望藉由知識的學習，了解並分享所學，進而幫助社會。</p>
 - talk:
@@ -86,7 +86,7 @@
 - talk:
   - short_talk3-2
   name: 願い星
-  avatar: null
+  avatar: speakers/short_talk3-2.jpg
   biography: >
     <p>台北實踐大學大三生
     路邊隨處可見的懵懂大學生，對於各種軟體技術都有興趣，各方面嘗試中，目前最有興趣的是 Golang， Qt。</p>
@@ -94,13 +94,13 @@
 - talk:
   - short_talk3-0
   name: 和風信使
-  avatar: null
+  avatar: speakers/short_talk3-0.jpg
   biography: >
     <p>目前就讀於中興資工，從高中因為社團接觸 ACM，然後大學開始自學 PHP。主要是後端工程師，前端略有涉略，美工超級不擅長，只是一個小小的網站維護工讀生，請大家多多指教。</p>
 - talk:
   - short_talk3-1
   name: SyneArt
-  avatar: http://sitcon.org/2013/images/speakers/3-syneart.jpg
+  avatar: speakers/syneart.jpg
   biography: >
     <p>SyneArt，平凡大學生一枚，喜歡研究程式，平時以寫程式為樂，設計為趣，有接不完的 Case，但都是義務性幫忙居多，目前朝著開源的方向前進，還有一個部落格: art.twgg.org。</p>
 - talk:
@@ -132,7 +132,7 @@
 - talk:
   - talk3-0
   name: David Kuo (Davy)
-  avatar: http://sitcon.org/2013/images/speakers/13-davy.jpg
+  avatar: speakers/david-kuo.jpg
   biography: >
     <p>David Kuo (郭子德)，常用的帳號是 david50407<br />
     目前就讀於國立中央大學資管系一年級，但對程式及網頁開發有著濃厚的興趣，目前較常接觸 HTML/CSS、PHP、C#、Ruby，多方涉獵中 . _ .<br />
