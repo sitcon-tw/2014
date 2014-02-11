@@ -67,7 +67,7 @@
         "pellaeon": {
             "name": "Pellaeon",
             "title": "議程組長",
-            "avatar": "g:883be3137cf256de269737722f2ee350"
+            "avatar": "staff/pellaeon.jpg"
         },
         "lee2041412": {
             "name": "Miller",
@@ -157,12 +157,12 @@
         },
         "pantc12": {
             "name": "PTC",
-            "title": "線路組員", 
+            "title": "線路組員",
             "avatar": "g:4a547dab70df0fb8527adad52a989496"
         },
         "conanphone4869": {
             "name": "Conan",
-            "title": "線路組員", 
+            "title": "線路組員",
             "avatar": "g:845f079b40d6a3d8addfea79d14b154e"
         }
     }
