@@ -206,7 +206,7 @@ talk3-1:
     - R1
   speaker:
     - 19
-forum:
+panel:
   title: 座談會
   tags:
     - Panel
@@ -214,7 +214,10 @@ forum:
     - R1
     - R2
   speaker:
-    -
+    - 20
+    - 0
+    - 1
+    - 21
 lighting:
   title: Lighting Talk
   tags:

@@ -4,8 +4,11 @@
     <%= session["title"] %>
     <div class="sub-header">
       <% session["speaker"].each do |id| %>
-      <% if id %>
-        <span class="speaker"><%= speakers[id]["name"] %><span>
+      <% # Some hack to tag panel host %>
+      <% if id and id != 20 %>
+        <span class="speaker"><%= speakers[id]["name"] %></span>
+      <% elsif id == 20 %>
+        <span class="host speaker"><%= speakers[id]["name"] %>（主持人）</span>
       <% end %>
       <% end %>
     </div>

@@ -78,6 +78,13 @@ loadMap = ()->
   }
 
 ###
+# Schedule
+###
+
+$sections["#schedule"].on "click", ".session.block", (e)->
+  $(e.currentTarget).attr("tabindex", -1).focus()
+
+###
 # Parallax Scrolling
 ###
 
