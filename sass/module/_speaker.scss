@@ -45,6 +45,15 @@
     font-family: $headerFont;
     @include adjust-font-size-to(18px, 1.05, 14px);
   }
+
+  a {
+    color: darken($primaryColor, 5%);
+    text-decoration: none;
+
+    &:hover, &:visited {
+      color: adjust-hue($primaryColor, 180%);
+    }
+  }
 }
 
 
@@ -66,7 +75,12 @@
   @include transition(100ms ease-in);
 
   &:hover, &:focus, &:active {
+    color: $secondaryColor;
     @include text-shadow(none);
     @include box-shadow(0px 0px 5px $primaryColor);
+  }
+
+  &:visited {
+    color: $secondaryColor;
   }
 }
