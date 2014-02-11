@@ -150,7 +150,7 @@
       end: 100,
       key: 'transform',
       from: 100,
-      to: 50,
+      to: 35,
       format: "translateY(%spx)",
       afterCalculate: function(val) {
         return (val / 100) * screenHeight;
