@@ -37,7 +37,7 @@ talk1-2:
     - Talk
     - R2
   speaker:
-    - 2
+    - 4
 talk1-0:
   title: 從網路到電路 - 利用 HTTP 的 RESTful 設計，控制牆壁上的插座
   detial: >
@@ -50,7 +50,7 @@ talk1-0:
     - Talk
     - R0
   speaker:
-    - 3
+    - 5
 talk1-1:
   title: 一年半前不會寫網站的菜鳥的故事
   detial: >
@@ -59,7 +59,7 @@ talk1-1:
     - Talk
     - R1
   speaker:
-    - 4
+    - 6
 short_talk1-2:
   title: 用積木打造遊戲
   detial: >
@@ -68,7 +68,7 @@ short_talk1-2:
     - Short-Talk
     - R2
   speaker:
-    - 5
+    - 7
 short_talk1-0:
   title: 教育你的師長，和他們一同成長
   detial: >
@@ -77,7 +77,7 @@ short_talk1-0:
     - Short-Talk
     - R0
   speaker:
-    - 6
+    - 8
 short_talk1-1:
   title: 第一次自幹 DEBUGGER 就上手 - 軟體除錯器撰寫
   detial: >
@@ -86,7 +86,7 @@ short_talk1-1:
     - Short-Talk
     - R1
   speaker:
-    - 7
+    - 9
 short_talk2-2:
   title: 小小社群，就從一台伺服器開始！
   detial: >
@@ -99,7 +99,7 @@ short_talk2-2:
     - Short-Talk
     - R2
   speaker:
-    - 8
+    - 10
 short_talk2-0:
   title: 走出教室的學習
   detial: >
@@ -108,7 +108,7 @@ short_talk2-0:
     - Short-Talk
     - R0
   speaker:
-    - 9
+    - 11
 short_talk2-1:
   title: Arduino 實作可觸繪圖界面
   detial: >
@@ -117,7 +117,7 @@ short_talk2-1:
     - Short-Talk
     - R1
   speaker:
-    - 10
+    - 12
 short_talk3-2:
   title: 從 Qt 翻譯進入 OSS 翻譯
   detial: >
@@ -126,7 +126,7 @@ short_talk3-2:
     - Short-Talk
     - R2
   speaker:
-    - 11
+    - 13
 short_talk3-0:
   title: 淺談正規表達式與PHP
   detial: >
@@ -135,7 +135,7 @@ short_talk3-0:
     - Short-Talk
     - R0
   speaker:
-    - 12
+    - 14
 short_talk3-1:
   title: Auto Choose Connect With QR Code
   detial: >
@@ -145,7 +145,7 @@ short_talk3-1:
     - Short-Talk
     - R1
   speaker:
-    - 13
+    - 15
 talk2-2:
   title: 深夜加油站遇見 QML
   detial: >
@@ -154,7 +154,7 @@ talk2-2:
     - Talk
     - R2
   speaker:
-    - 14
+    - 16
 talk2-1:
   title: 當PHP與Facebook API相遇
   detial: >
@@ -163,7 +163,7 @@ talk2-1:
     - Talk
     - R1
   speaker:
-    - 15
+    - 17
 talk2-0:
   title: 那些在 NTUST.CC 背後你所不知道的故事
   detial: >
@@ -172,7 +172,7 @@ talk2-0:
     - Talk
     - R0
   speaker:
-    - 16
+    - 18
 talk3-2:
   title: 從技術面簡介線上遊戲外掛
   detial: >
@@ -186,7 +186,7 @@ talk3-2:
     - Talk
     - R2
   speaker:
-    - 17
+    - 19
 talk3-0:
   title: 第一次接案就上手：PHP or RoR?
   detial: >
@@ -195,7 +195,7 @@ talk3-0:
     - Talk
     - R0
   speaker:
-    - 18
+    - 20
 talk3-1:
   title: 如何善用社群內容推廣冷門議題
   detial: >
@@ -205,7 +205,7 @@ talk3-1:
     - Talk
     - R1
   speaker:
-    - 19
+    - 21
 panel:
   title: 座談會
   tags:
@@ -214,10 +214,10 @@ panel:
     - R1
     - R2
   speaker:
-    - 20
+    - 2
     - 0
     - 1
-    - 21
+    - 3
 lighting:
   title: Lighting Talk
   tags:
