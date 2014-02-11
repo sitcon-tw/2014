@@ -52,9 +52,8 @@ talk1-0:
   speaker:
     - 3
 talk1-1:
-  title: 我在 OH 奮鬥的日子
+  title: 一年半前不會寫網站的菜鳥的故事
   detial: >
-    <p>OH，全名為 「Open House 國立交通大學企業校園徵才小組」，由學生組成，主旨為幫助校內學生就業及協助企業徵才，我所在的資訊組負責一切資訊電腦相關服務的建置與維護。</p>
     <p>我的演講會分享我從 2012 年 8 月中旬至今為止，自不會寫網站、不會系統及網路管理，開始學習如何管理 Arch Linux 主機、QEMU 中的 BBS 系統、Postfix Mail Server、vsftpd FTP Server及使用 Yii 架設網站的過程。還有接任組長後，使我儼然置身小型企業的奇聞軼事。</p>
   tags:
     - Talk

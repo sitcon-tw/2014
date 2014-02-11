@@ -38,12 +38,15 @@
 - talk:
     - talk1-1
   name: Mr.Q
-  avatar: null
+  avatar: speakers/mr-q.jpg
   biography: >
     <p>國立交作業大學程序猿系大三牲<br />
     喜歡自由軟體與 Open Source<br />
     對資訊科技相關的事物都有興趣但懂得不多<br />
     只是個平凡的麻瓜 請多多指教<br />
+    </p>
+    <p>
+      Blog：http://m157q.logdown.com/
     </p>
 - talk:
     - short_talk1-2
