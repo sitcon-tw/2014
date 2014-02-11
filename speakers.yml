@@ -108,7 +108,7 @@
   name: SyneArt
   avatar: speakers/syneart.jpg
   biography: >
-    <p>SyneArt，平凡大學生一枚，喜歡研究程式，平時以寫程式為樂，設計為趣，有接不完的 Case，但都是義務性幫忙居多，目前朝著開源的方向前進，還有一個部落格: art.twgg.org。</p>
+    <p>SyneArt，平凡大學生一枚，喜歡研究程式，平時以寫程式為樂，設計為趣，有接不完的 Case，但都是義務性幫忙居多，目前朝著開源的方向前進，可以在這裡找到我：<a href="http://syneart.com" target="_blank">syneart.com</a>。</p>
 - talk:
   - talk2-2
   name: RSChiang
@@ -125,7 +125,7 @@
 - talk:
   - talk2-0
   name: JSON
-  avatar: null
+  avatar: speakers/json.jpg
   biography: >
     <p>台科大資工系學生，曾獲得全國技能競賽網頁設計金牌至此熱愛 Web / 程式開發，對於不滿的現狀總有開發的想法，喜歡學習各種潮流技術，是 Web 開發愛好者，因為它能夠快速將想法呈現給使用用者，平常以 RoR 進行 Web 開發，為 MeowDev 成員。關於我：<a href="http://blog.developer.tw" rel="external nofollow">blog.developer.tw</a>。</p>
 - talk:
