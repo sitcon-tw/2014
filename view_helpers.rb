@@ -22,6 +22,11 @@ module ViewHelpers
     data
   end
 
+  def sponsors
+    data ||= load_yaml("sponsors.yml")
+    data
+  end
+
   def team
     data ||= load_json("team.json")
     data

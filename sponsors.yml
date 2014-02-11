@@ -1,0 +1,12 @@
+- name: KKTIX 售票亭
+  logo: sponsors/kktix.png
+  sub-header: 今年你們也推不倒
+  url: http://kktix.com
+- name: justfont 就是字
+  logo: sponsors/justfont.png
+  sub-header: 網頁還沒開完字體就讀好了
+  url: http://www.justfont.com
+- name: 祐生研究基金會
+  logo: sponsors/archilife.png
+  sub-header:
+  url: http://www.archilife.org/

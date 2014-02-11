@@ -12,12 +12,19 @@
   @include isolate-grid(4);
 
   a {
+    display: block;
     @include opacity(0.5);
-    @include transition(150ms ease-in);
+    @include transition(150ms ease-in opacity);
+    @include translateZ(0);
 
     &:hover, &:active, &:focus {
       @include opacity(1);
     }
+  }
+
+  img {
+    position: relative;
+    max-width: 100%;
   }
 
   .sub-header {
@@ -26,5 +33,7 @@
     font-weight: normal;
     font-family: $lightFont;
     color: adjust-lightness($thirdColor, 50%);
+
+    @include rhythm(0.1, 0.15, 0.15, 0.1);
   }
 }
