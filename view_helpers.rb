@@ -67,8 +67,8 @@ module ViewHelpers
     case tag
     when "Lounge"
       return "交誼廳"
-    when "Lighting-Talk"
-      return "Lighting Talk"
+    when "Lightning-Talk"
+      return "Lightning Talk"
     when "Short-Talk"
       return "Short Talk"
     when "Panel"

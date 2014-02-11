@@ -36,7 +36,7 @@
     }
   }
 
-  .detial {
+  .detail {
     max-height: 0px;
     overflow: hidden;
 
@@ -74,7 +74,7 @@
       margin-right: 1em;
     }
 
-    &.keynote, &.talk, &.short-talk, &.lighting-talk, &.panel {
+    &.keynote, &.talk, &.short-talk, &.lightning-talk, &.panel {
       background: adjust-hue($primaryColor, -85deg);
     }
 
@@ -92,7 +92,7 @@
     padding-left: 1em;
     border-left-width: 10px;
 
-    .detial {
+    .detail {
       max-height: 1000px;
 
       @include transition(1s ease-out max-height);
