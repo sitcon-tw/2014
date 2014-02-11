@@ -35,6 +35,8 @@
     max-height: 0px;
     overflow: hidden;
 
+    letter-spacing: 0.1em;
+
     @include transition(250ms);
 
     &.active {
