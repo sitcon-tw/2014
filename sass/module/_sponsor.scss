@@ -3,7 +3,10 @@
  */
 
 .sponsors {
-
+  .list.inline {
+    border-top: 1px solid adjust-lightness($thirdColor, 85%);
+    @include rhythm(0.5, 0.25, 0.25, 0.5);
+  }
 }
 
 .sponsor {
@@ -35,5 +38,15 @@
     color: adjust-lightness($thirdColor, 50%);
 
     @include rhythm(0.1, 0.15, 0.15, 0.1);
+  }
+
+  &.inline {
+    float: none;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    font-family: $lightFont;
+
+    color: adjust-lightness($thirdColor, 25%);
   }
 }
