@@ -271,7 +271,12 @@
 
   $window.ready(function() {
     page.init();
-    return loadMap();
+    loadMap();
+    if (window.btoa) {
+      window.sitcon_secret = window.btoa("   _______________________  _  __\n  / __/  _/_  __/ ___/ __ \/ |/ /\n _\ \_/ /  / / / /__/ /_/ /    / \n/___/___/ /_/  \___/\____/_/|_/  ");
+      console.log(window.atob(sitcon_secret));
+      return console.log("SGVsbG8lMkMlMjAlRTUlQTYlODIlRTYlOUUlOUMlRTQlQkQlQTAlRTYlOTglQUYlRTUlQUQlQjglRTclOTQlOUYlRUYlQkMlOEMlRTYlQUQlQTElRTglQkYlOEUlRTUlOEElQTAlRTUlODUlQTUlRTQlQjklOEIlRTUlQkUlOEMlRTUlOEQlQjMlRTUlQjAlODclRTYlODglOTAlRTclQUIlOEIlRTclOUElODQlMjBTSVRDT04lMjAlRTUlQjglQjglRTUlODIlOTklRTclQjUlODQlRTUlODglQTUlRUYlQkMlOEQlRTglQTYlOTYlRTglQTYlQkElRTUlQjAlOEYlRTclQjUlODQlRUYlQkMlOEMlRTclODIlQkElRTUlQkUlODAlRTUlQkUlOEMlRTclOUElODQlMjBTSVRDT04lMjAlRTglODglODclRTclOUIlQjglRTklOTclOUMlRTYlQjQlQkIlRTUlOEIlOTUlRTUlODclQkElRTQlQjglODAlRTQlQkIlQkQlRTUlOEElOUIlRUYlQkMlOEMlRTUlQTYlODIlRTYlOUUlOUMlRTYlOTglQUYlRTYlQTUlQUQlRTclOTUlOEMlRTQlQkElQkElRTUlQTMlQUIlRUYlQkMlOEMlRTQlQjklOUYlRTYlQUQlQTElRTglQkYlOEUlRTYlODglOTAlRTclODIlQkElRTYlODglOTElRTUlODAlOTElRTclOUElODQlRTklQTElQTclRTUlOTUlOEYlRTMlODAlODIlMjAlRTclOUIlQjQlRTYlOEUlQTUlRTUlOUMlQTglMjBGYWNlYm9vayUyMCVFNCVCOCU4QSVFOCU4MSVBRiVFNyVCNSVBMSVFOCU5MiVCQyVFNiU5OSU4MiVFNSU4RCVCMyVFNSU4RiVBRiVFRiVCQyU5QWh0dHAlM0ElMkYlMkZmYi5tZSUyRmVsY3Q5NjIw");
+    }
   });
 
 }).call(this);

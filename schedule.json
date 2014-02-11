@@ -13,7 +13,7 @@
     {
         "type": "session",
         "time": "9:10",
-        "sessions": ["keynote1"]
+        "sessions": ["keynote2"]
     },
     {
         "type": "break",
@@ -22,7 +22,7 @@
     {
         "type": "session",
         "time": "10:10",
-        "sessions": ["keynote2"]
+        "sessions": ["keynote1"]
     },
     {
         "type": "break",
