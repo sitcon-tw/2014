@@ -43,7 +43,7 @@
     {
         "type": "session",
         "time": "13:00",
-        "sessions": [ "forum" ]
+        "sessions": [ "panel" ]
     },
     {
         "type": "break",

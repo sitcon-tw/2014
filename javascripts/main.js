@@ -91,6 +91,15 @@
   };
 
   /*
+  # Schedule
+  */
+
+
+  $sections["#schedule"].on("click", ".session.block", function(e) {
+    return $(e.currentTarget).attr("tabindex", -1).focus();
+  });
+
+  /*
   # Parallax Scrolling
   */
 

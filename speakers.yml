@@ -6,6 +6,7 @@
     <p>已經準備好被開除後要去做「 科學玩具與書籍 」，希望下一代能透過這些書籍與玩具學會已知的技術，為台灣的科學教育保留一點點希望的種子。</p>
   talk:
     - keynote1
+    - panel
 - name: 鄭永斌教授
   avatar: speakers/keynote2.jpg
   biography: >
@@ -13,6 +14,7 @@
     <p>他的研究專長領域為軟體工程，尤其是喜歡提出新技術，解決實務軟體開發過程中，程式設計人員所面臨的痛苦。</p>
   talk:
     - keynote2
+    - panel
 - talk:
   - talk1-2
   name: 蒼時弦也
@@ -146,3 +148,15 @@
   avatar: null
   biography: >
     <p>justfont blog 主編，字戀粉絲團 B 編，臺大中文畢，政大數位內容碩二，字體控暨影迷，但不太讀書。消費內容之餘也生產內容。</p>
+- talk:
+    - panel
+  name: Richard Lee
+  avatar: http://sitcon.org/2013/images/speakers/richard-lee.jpg
+  biography: >
+    <p>Polydice & Inside 共同創辦人，目前主要參與公司產品愛料理的營運以及產品開發。熱愛打造產品、新創公司的成長以及 Web 和 Mobile 相關技術。</p>
+- talk:
+    - panel
+  name: 郭耀煌教授
+  avatar: null
+  biography: >
+    <p>郭耀煌教授現任政大理學院院長及成大資工系特聘教授，曾任行政院科顧組副執行秘書、教育部電算中心主任、國科會工程中心主任及資訊學門召集人，目前擔任教育部「資訊軟體人才培育中程計畫」及國科會「自由軟體暨雲端/資安研發推動專案」推動中心總召集人。</p>
