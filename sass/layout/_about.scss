@@ -8,7 +8,7 @@
 
   @include background(image-url("sitcon_jiang.png") no-repeat 85% 115%);
 
-  .description {
+  .description, .partent-list {
     @include span-columns(8);
   }
 
@@ -36,6 +36,22 @@
   color: $secondaryColor;
 
   @include rhythm(0.25, 0.5, 0.5, 0.25);
+
+  .about-us {
+    position: relative;
+  }
+
+  .partents {
+    color: $primaryColor;
+
+    h3 {
+      display: inline-block;
+    }
+  }
+
+  .partent {
+    display: inline;
+  }
 
   .background.polygon {
     position: absolute;
