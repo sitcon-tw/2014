@@ -25,11 +25,9 @@
   }
 
   .avatar .link {
-    @include filter(grayscale(100%));
     @include transition(250ms ease-in);
 
     &:hover, &:focus, &:active {
-      @include filter(grayscale(0%));
     }
   }
 
