@@ -7,7 +7,7 @@
   overflow: inherit;
 }
 
-#location-informaion {
+#location-information {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -20,6 +20,7 @@
   background: rgba(black, 0.75);
 
   .information {
+    @include adjust-font-size-to(24px, 1.5);
     @include span-columns(8);
   }
 
@@ -30,7 +31,7 @@
 
     img {
       position: absolute;
-      top: -350px;
+      top: -320px;
       z-index: 999;
     }
   }
