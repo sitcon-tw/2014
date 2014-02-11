@@ -7,6 +7,10 @@
     border-top: 1px solid adjust-lightness($thirdColor, 85%);
     @include rhythm(0.5, 0.25, 0.25, 0.5);
   }
+
+  .inline.header {
+    font-family: $headerFont;
+  }
 }
 
 .sponsor {
@@ -28,6 +32,10 @@
   img {
     position: relative;
     max-width: 100%;
+  }
+
+  h3 {
+    font-family: $headerFont;
   }
 
   .sub-header {

@@ -8,6 +8,8 @@
     color: $secondaryColor;
     background: $primaryColor;
 
+    font-family: $headerFont;
+
     @include rhythm(0.5, 0.25, 0.25, 0.5);
     @include border-radius($borderRadius 0 0 0);
   }
@@ -33,6 +35,8 @@
   }
 
   .nickname {
+    font-family: $headerFont;
+
     @include rhythm(0.5, 0, 0, 0.5);
   }
 

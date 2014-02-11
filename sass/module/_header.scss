@@ -27,6 +27,8 @@
   @include rotateZ(-1.25deg);
 
   h2 {
+    font-family: $headerFont;
+
     @include rotateZ(1.25deg);
     @include adjust-font-size-to(32px, 1.5);
   }

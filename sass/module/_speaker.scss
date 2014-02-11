@@ -42,7 +42,7 @@
   @include adjust-font-size-to(14px, 1.05);
 
   h3 {
-    font-family: $normalFont;
+    font-family: $headerFont;
     @include adjust-font-size-to(18px, 1.05, 14px);
   }
 }
