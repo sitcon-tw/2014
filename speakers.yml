@@ -108,7 +108,7 @@
   name: SyneArt
   avatar: speakers/syneart.jpg
   biography: >
-    <p>SyneArt，平凡大學生一枚，喜歡研究程式，平時以寫程式為樂，設計為趣，有接不完的 Case，但都是義務性幫忙居多，目前朝著開源的方向前進，還有一個部落格: art.twgg.org。</p>
+    <p>SyneArt，平凡大學生一枚，喜歡研究程式，平時以寫程式為樂，設計為趣，有接不完的 Case，但都是義務性幫忙居多，目前朝著開源的方向前進，可以在這裡找到我：<a href="http://syneart.com" target="_blank">syneart.com</a>。</p>
 - talk:
   - talk2-2
   name: RSChiang
