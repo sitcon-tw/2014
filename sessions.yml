@@ -117,7 +117,7 @@ short_talk3-2:
   speaker:
     - 13
 short_talk3-0:
-  title: 淺談正規表達式與PHP
+  title: 淺談正規表達式與 PHP
   detail: >
     <p>正規表達式是文字處理的神器，但是它的學習曲線也是異常的陡峭，本議程將帶您了解源自 Perl 的正規表達式，介紹一些好用的正規表達式工具，以及如何在 php、Sublime Text、Notepad++……等地方使用它。另外，還會同時引領大家試著處理一些常用的範例，以及寫網頁爬蟲抓取網頁的相關資訊。</p>
   tags:
