@@ -54,7 +54,7 @@
 - talk:
   - short_talk1-0
   name: jserv
-  avatar: http://sitcon.org/2013/images/speakers/jserv.jpg
+  avatar: speakers/jserv.jpg
   biography: >
     <p>還在唸大學，只是大學三年級唸了 12 年。求學階段陸續開發了若干世界級的開放原始碼專案，擔任了聯發科、工研院等單位的顧問，並在大學兼課，過去專注於消費性電子產品的研發，目前則投入醫療電子領域。</p>
 - talk:
