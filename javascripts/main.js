@@ -79,7 +79,7 @@
     mapLatLng = new google.maps.LatLng(25.0410096, 121.6118796);
     mapOptions = {
       center: mapLatLng,
-      zoom: 19,
+      zoom: 15,
       scrollwheel: false
     };
     map = new google.maps.Map($mapCanva, mapOptions);
