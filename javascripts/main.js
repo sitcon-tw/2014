@@ -55,6 +55,14 @@
   */
 
 
+  $menu.on("click", "a", function(e) {
+    var targetScrollTop;
+
+    targetScrollTop = $sections[e.target.hash].offset().top;
+    $dom.scrollTo(targetScrollTop - 60, 1000);
+    return e.preventDefault();
+  });
+
   /*
   # About Section
   */
@@ -123,10 +131,7 @@
 
   page.section(SECTIONS.NAVIGATION, function(section) {
     return section.on("scrollIn", function(way) {
-      setMenuActiveItem(0);
-      if (way === -1) {
-        return $dom.scrollTop($dom.scrollTop() + 60);
-      }
+      return setMenuActiveItem(0);
     });
   });
 
