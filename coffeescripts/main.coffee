@@ -48,6 +48,11 @@ $window.on 'resize', ()->
 # Navigation
 ###
 
+$menu.on "click", "a", (e) ->
+  targetScrollTop = $sections[e.target.hash].offset().top
+  $dom.scrollTo(targetScrollTop - 60, 1000)
+  e.preventDefault()
+
 ###
 # About Section
 ###
@@ -107,8 +112,6 @@ page.section SECTIONS.LANDING, (section) ->
 page.section SECTIONS.NAVIGATION, (section) ->
   section.on "scrollIn", (way)->
     setMenuActiveItem(0)
-    if way is -1
-      $dom.scrollTop($dom.scrollTop() + 60)
 
 page.section SECTIONS.ABOUT, (section) ->
   transitions = []

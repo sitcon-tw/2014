@@ -8,6 +8,7 @@ html {
   &.fixed {
     padding-top: 60px;
   }
+
 }
 
 body {
@@ -20,3 +21,8 @@ body {
 .container {
   @include container;
 }
+
+.disable-pointer {
+  pointer-events: none;
+}
+
