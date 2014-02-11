@@ -53,14 +53,14 @@
         "type": "session",
         "time": "14:30",
         "sessions": [
-            "short_talk1-0", "short_talk1-1", "short_talk1-2", "salon"
+            "short_talk2-0", "short_talk1-1", "short_talk1-2", "salon"
         ]
     },
     {
         "type": "session",
         "time": "14:40",
         "sessions": [
-            "short_talk2-0", "short_talk2-1", "short_talk2-2", "salon"
+            "short_talk1-0", "short_talk2-1", "short_talk2-2", "salon"
         ]
     },
     {
