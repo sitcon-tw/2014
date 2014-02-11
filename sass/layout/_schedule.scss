@@ -4,6 +4,11 @@
 
 #schedule {
   padding-bottom: 5em;
+
+  .notice {
+    text-align: right;
+    color: $primaryColor;
+  }
 }
 
 .sessions .item {
