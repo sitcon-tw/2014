@@ -2,8 +2,8 @@
   avatar: null
   biography: >
     <p>陳鍾誠教授目前任教於金門大學資工系，喜歡寫「網誌、程式與電子書」，不喜歡「寫論文與接國科會計畫」。</p>
-    <p>現在負責主編「程式人雜誌」，同時撰寫一系列 「電子資訊領域的創作共用電子書」 ，並且致力於執行沒有經費的「 開放電腦計畫 」， 希望透過這些既有知識的傳播改變台灣的大學教育，讓下一代具備堅強的實務能力。</p>
-    <p>已經準備好被開除後要去做「 科學玩具與書籍 」，希望下一代能透過這些書籍與玩具學會已知的技術，為台灣的科學教育保留一點點希望的種子。</p>
+    <p>現在負責主編「程式人雜誌」，同時撰寫一系列「電子資訊領域的創作共用電子書」，並且致力於執行沒有經費的「開放電腦計畫」，希望透過這些既有知識的傳播改變台灣的大學教育，讓下一代具備堅強的實務能力。</p>
+    <p>已經準備好被開除後要去做「科學玩具與書籍」，希望下一代能透過這些書籍與玩具學會已知的技術，為台灣的科學教育保留一點點希望的種子。</p>
   talk:
     - keynote1
     - panel
@@ -39,16 +39,8 @@
   avatar: speakers/pichu.jpg
   biography: >
     <p>目前為中山大學資工系碩一學生</p>
-    曾任：
-    <ul>
-    <li>中山大學 CDPA 網管、會長</li>
-    <li>中山大學資工系網管（預計二月交接，因此 SITCON 當下應該是卸任了）</li>
-    </ul>
-    現任：
-    <ul>
-    <li>中山大學宿委會棟長</li>
-    <li>中山大學 Formosa BBS、西灣 BBS 系統站長</li>
-    </ul>
+    <p>曾任：中山大學 CDPA 網管、會長；中山大學資工系網管（預計二月交接，因此 SITCON 當下應該是卸任了）</p>
+    <p>現任：中山大學宿委會棟長；中山大學 Formosa BBS、西灣 BBS 系統站長</p>
 - talk:
     - talk1-1
   name: Mr.Q
@@ -58,16 +50,13 @@
     喜歡自由軟體與 Open Source<br />
     對資訊科技相關的事物都有興趣但懂得不多<br />
     只是個平凡的麻瓜 請多多指教<br />
-    </p>
-    <p>
-      Blog：http://m157q.logdown.com/
-    </p>
+    Blog: <a href="http://m157q.logdown.com/" rel="external nofollow">m157q.logdown.com</a></p>
 - talk:
     - short_talk1-2
   name: Jeffrey Lin
   avatar: speakers/jeffrey-lin.jpg
   biography: >
-    <p>一個喜歡寫遊戲、網頁和設計的電腦人，喜歡背 圓週率(pi  3.141592653589793238462643383…)，同時喜歡打鼓和彈吉他，平常喜歡幫同學解決一些電腦問題。</p>
+    <p>一個喜歡寫遊戲、網頁和設計的電腦人，喜歡背圓週率(pi=3.141592653589793238462643383…)，同時喜歡打鼓和彈吉他，平常喜歡幫同學解決一些電腦問題。</p>
 - talk:
   - short_talk1-0
   name: jserv
@@ -79,7 +68,7 @@
   name:  LegBone（蔡耀德）
   avatar: speakers/legbone.jpg
   biography: >
-    <p>本業是廚師， coder 的身份只是掩飾，平常最大的興趣就是到處亂拆，debug 只是為了世界和平，來自傳說中的黑暗料理界</p>
+    <p>本業是廚師，coder 的身份只是掩飾，平常最大的興趣就是到處亂拆，debug 只是為了世界和平，來自傳說中的黑暗料理界。</p>
 - talk:
   - short_talk2-2
   name: 基爾 kir
@@ -99,15 +88,15 @@
   name: Yanyiyi（雁之翼）
   avatar: g:d2a390382a4d3d5cf17740ffbd914942
   biography: >
-    <p>自認是跨領域設計師，喜歡寫網站，目前自組工作室接學校小網站維生，喜歡向量圖，最近在練習 inkscape，喜歡動手做把腦袋想像的玩具自己打造出來，所以試著學習程式和電子電路，努力能夠畢業的菸酒生狀態。</p>
+    <p>自認是跨領域設計師，喜歡寫網站，目前自組工作室接學校小網站維生，喜歡向量圖，最近在練習 Inkscape，喜歡動手做把腦袋想像的玩具自己打造出來，所以試著學習程式和電子電路，努力能夠畢業的菸酒生狀態。</p>
 - talk:
   - short_talk3-2
   name: 願い星
   avatar: speakers/short_talk3-2.jpg
   biography: >
-    <p>台北實踐大學大三生
-    路邊隨處可見的懵懂大學生，對於各種軟體技術都有興趣，各方面嘗試中，目前最有興趣的是 Golang， Qt。</p>
-    <p>Found me: Golang.tw， Qt Taiwan 。</p>
+    <p>台北實踐大學大三生<br />
+    路邊隨處可見的懵懂大學生，對於各種軟體技術都有興趣，各方面嘗試中，目前最有興趣的是 Golang、Qt。</p>
+    <p>Find me: Golang.tw、Qt Taiwan 。</p>
 - talk:
   - short_talk3-0
   name: 和風信使
@@ -125,33 +114,33 @@
   name: RSChiang
   avatar: g:b3ecf4287d58054135af5d7b4d741021
   biography: >
-    <p>RSChiang，目前就讀於臺灣大學法律學系，曾任 SITCON 2013 行政組長。去年還在善導寺高中刻人工智慧，某天突然轉職成鍵盤法律人。被問起為什麼要在學校推廣開源概念？大概是為了不辜負爺爺的名聲吧。</p>
+    <p>RSChiang，目前就讀於臺灣大學法律學系，曾任 SITCON 2013 行政組長。</p>
+    <p>去年還在善導寺高中刻人工智慧，某天突然轉職成鍵盤法律人。被問起為什麼要在學校推廣開源概念？大概是為了不辜負爺爺的名聲吧。</p>
 - talk:
   - talk2-1
   name: 聽。風
   avatar: g:3c55fae3843681f1452761396c6a417f
   biography: >
-    <p>我是林熙哲，因為各種原因一頭栽進程式的世界，我對 PHP、C# 等程式語言有興趣，之後想研究 Ruby on Rails，歡迎有興趣的朋友找我討論，另外我目前有在做一個「活動公告平台」，會在本次SITCON的閃電秀中做介紹。</p>
+    <p>我是林熙哲，因為各種原因一頭栽進程式的世界，我對 PHP、C# 等程式語言有興趣，之後想研究 Ruby on Rails，歡迎有興趣的朋友找我討論，另外我目前有在做一個「活動公告平台」，會在本次 SITCON 的閃電秀中做介紹。</p>
 - talk:
   - talk2-0
   name: JSON
   avatar: null
   biography: >
-    <p>台科大資工系學生，曾獲得全國技能競賽網頁設計金牌至此熱愛 Web/程式開發，對於不滿的現狀總有開發的想法，喜歡學習各種潮流技術 ，是Web開發愛好者，因為它能夠快速將想法呈現給使用用者，平常以 RoR 進行 Web 開發，為 MeowDev 成員。關於我：http://blog.developer.tw。</p>
+    <p>台科大資工系學生，曾獲得全國技能競賽網頁設計金牌至此熱愛 Web / 程式開發，對於不滿的現狀總有開發的想法，喜歡學習各種潮流技術，是 Web 開發愛好者，因為它能夠快速將想法呈現給使用用者，平常以 RoR 進行 Web 開發，為 MeowDev 成員。關於我：<a href="http://blog.developer.tw" rel="external nofollow">blog.developer.tw</a>。</p>
 - talk:
   - talk3-2
   name: Zuan
   avatar: null
   biography: >
-    <p>Zuan， 本名陳立中， 目前是就讀台科大不分系大五， 是chr00t資安社群成員， 專長為逆向工程及 rootkit 等資安領域。</p>
-    <p>2006 左右活耀於 Cheat Engine Forum， 為其Underground成員， 當時主要研究楓之谷外掛，
-    專注於破解 nProtect GameGuard， 寫了當年廣為使用的MzBot。</p>
+    <p>Zuan，本名陳立中，目前是就讀台科大不分系大五，是 chr00t 資安社群成員，專長為逆向工程及 rootkit 等資安領域。</p>
+    <p>2006 左右活耀於 Cheat Engine Forum，為其Underground成員，當時主要研究楓之谷外掛，專注於破解 nProtect GameGuard，寫了當年廣為使用的MzBot。</p>
 - talk:
   - talk3-0
   name: David Kuo (Davy)
   avatar: speakers/david-kuo.jpg
   biography: >
-    <p>David Kuo (郭子德)，常用的帳號是 david50407<br />
+    <p>David Kuo（郭子德），常用的帳號是 david50407。<br />
     目前就讀於國立中央大學資管系一年級，但對程式及網頁開發有著濃厚的興趣，目前較常接觸 HTML/CSS、PHP、C#、Ruby，多方涉獵中 . _ .<br />
     小趴家的貓 / 網管 / 打雜的 / 拿東西的</p>
 - talk:
