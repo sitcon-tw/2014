@@ -69,7 +69,7 @@
   avatar: speakers/kir.jpg
   biography: >
     <p>毫無反應，只是個平凡無奇的網管。</p>
-    <p>熱愛 FreeBSD 跟 Linux 系統，工讀於滲透了學校的電算中心。趁著大學畢業前，跟幾位
+    <p>熱愛 FreeBSD 跟 Linux 系統，工讀於<del>滲透了</del>學校的電算中心。趁著大學畢業前，跟幾位
     有志烈士入坑，成立了校園社群，目標是搞校園 g0v!</p>
 - talk:
   - short_talk2-0
