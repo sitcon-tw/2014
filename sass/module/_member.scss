@@ -25,6 +25,7 @@
   }
 
   .avatar .link {
+    display: inline-block;
     @include transition(250ms ease-in);
 
     &:hover, &:focus, &:active {
