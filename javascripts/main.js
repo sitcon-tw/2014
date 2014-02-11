@@ -59,7 +59,7 @@
     var targetScrollTop;
 
     targetScrollTop = $sections[e.target.hash].offset().top;
-    $dom.scrollTo(targetScrollTop - 60, 1000);
+    $dom.scrollTo(targetScrollTop - 58, 1000);
     return e.preventDefault();
   });
 
