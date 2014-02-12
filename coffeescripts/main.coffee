@@ -39,6 +39,8 @@ resetMenuActiveItem = ()->
 setMenuActiveItem = (index) ->
   resetMenuActiveItem()
   $menuItem[index].addClass "active"
+  hash = $menuItem[index].children('a').attr('href')
+  ga('send', 'pageview', "/2014/#{hash}")
 
 $window.on 'resize', ()->
   screenWidth = $window.width()
@@ -51,6 +53,7 @@ $window.on 'resize', ()->
 $menu.on "click", "a", (e) ->
   targetScrollTop = $sections[e.target.hash].offset().top
   $dom.scrollTo(targetScrollTop - 58, 1000)
+  ga('send', 'pageview', "/2014/#{e.target.hash}")
   e.preventDefault()
 
 ###
