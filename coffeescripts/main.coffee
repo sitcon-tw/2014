@@ -116,8 +116,23 @@ page.on 'changed', (current, previous)->
     $dom.addClass "fixed"
 
 page.section SECTIONS.LANDING, (section) ->
+  transitions = []
+
+  scrollDownNotice = document.querySelector("#scroll-down-notice")
+
   section.on "scrollIn", () ->
     resetMenuActiveItem()
+
+  transitions.push {
+    target: scrollDownNotice
+    start: 100
+    end: 120
+    key: 'opacity'
+    from: 1
+    to: 0
+  }
+
+  section.transitions(transitions)
 
 page.section SECTIONS.NAVIGATION, (section) ->
   section.on "scrollIn", (way)->

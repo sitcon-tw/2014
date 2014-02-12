@@ -41,3 +41,45 @@
   background: image-url("logo_white.svg") center no-repeat;
   @include hide-text;
 }
+
+@include keyframes(jumping) {
+  0% {
+    @include translateY(0em);
+  }
+
+  50% {
+    @include translateY(0.5em);
+  }
+
+  100% {
+    @include translateY(0em);
+  }
+}
+
+#scroll-down-notice {
+  position: absolute;
+  bottom: 4em;
+  left: 0;
+  right: 0;
+  z-index: 999;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: $secondaryColor;
+
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 2em;
+    left: 50%;
+    width: 0;
+    height: 0;
+    margin-left: -1em;
+
+    border: 1em solid transparent;
+    border-top: 1em solid $secondaryColor;
+
+    @include animation(0, 1s, jumping, infinite);
+  }
+}
