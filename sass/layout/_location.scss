@@ -50,7 +50,9 @@
   .sitcon-jiang {
     position: relative;
 
-    @include span-columns(4 omega);
+    @include at-breakpoint($pc) {
+      @include span-columns(4 omega);
+    }
 
     img {
       display: none;
