@@ -59,7 +59,7 @@ $window.on 'resize', ()->
 
 $menu.on "click", "a", (e) ->
   targetScrollTop = $sections[e.target.hash].offset().top
-  $dom.scrollTo(targetScrollTop - 58, 1000)
+  $window.scrollTo(targetScrollTop - 55, 1000)
   ga('send', 'pageview', "/2014/#{e.target.hash}")
   e.preventDefault()
 
