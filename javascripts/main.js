@@ -4,7 +4,7 @@
 
 
 (function() {
-  var $dom, $mapCanva, $menu, $menuItem, $menuItems, $sections, $window, SECTIONS, loadMap, page, resetMenuActiveItem, screenHeight, screenWidth, setMenuActiveItem;
+  var $dom, $mapCanva, $menu, $menuItem, $menuItems, $sections, $window, SECTIONS, loadMap, page, pc, resetMenuActiveItem, screenHeight, screenWidth, setMenuActiveItem, tablet;
 
   $window = $(window);
 
@@ -28,6 +28,15 @@
     "#sponsor": $("#sponsor"),
     "#team": $("#team")
   };
+
+  /*
+  # Media Query in JS
+  */
+
+
+  tablet = Modernizr.mq("(min-width: 48em)");
+
+  pc = Modernizr.mq("(min-width: 64em)");
 
   $mapCanva = document.querySelector("#map-canva");
 
@@ -129,10 +138,10 @@
 
     pageID = current.element.id;
     if (pageID === "landing") {
-      $menu.removeClass("fixed");
+      $menu.parent().removeClass("fixed");
       return $dom.removeClass("fixed");
     } else {
-      $menu.addClass("fixed");
+      $menu.parent().addClass("fixed");
       return $dom.addClass("fixed");
     }
   });
@@ -153,7 +162,9 @@
       from: 1,
       to: 0
     });
-    return section.transitions(transitions);
+    if (pc) {
+      return section.transitions(transitions);
+    }
   });
 
   page.section(SECTIONS.NAVIGATION, function(section) {
@@ -198,7 +209,9 @@
         }
       });
     }
-    return section.transitions(transitions);
+    if (pc) {
+      return section.transitions(transitions);
+    }
   });
 
   page.section(SECTIONS.LOCATION, function(section) {
@@ -221,7 +234,9 @@
         return val = (val / 100) * screenHeight;
       }
     });
-    return section.transitions(transitions);
+    if (pc) {
+      return section.transitions(transitions);
+    }
   });
 
   page.section(SECTIONS.SPEAKER, function(section) {
@@ -257,7 +272,9 @@
     section.on("scrollIn", function() {
       return setMenuActiveItem(2);
     });
-    return section.transitions(transitions);
+    if (tablet) {
+      return section.transitions(transitions);
+    }
   });
 
   page.section(SECTIONS.SCHEDULE, function(section) {

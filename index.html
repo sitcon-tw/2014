@@ -56,6 +56,8 @@
 </section>
 <header id="header" class="section">
   <nav id="main-menu">
+  <label for="menu-toggle" class="mobile menu"><div class="item">Menu</div></label>
+  <input type="checkbox" id="menu-toggle" />
   <ul class="main menu">
     <li class="item"><a href="#about">About</a></li>
     <li class="item"><a href="#location">Location</a></li>
@@ -235,7 +237,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
   <div id="location-information">
     <div class="container">
       <div class="information">
-        2014 年 3 月 15 日 / 中央研究院 人文社會科學館
+        <span class="date">2014 年 3 月 15 日 /</span><span class="location"> 中央研究院 人文社會科學館</span>
       </div>
       <div class="sitcon-jiang">
         <img id="sitcon-jiang-at-map" src="images/sitcon_at_map.png" width="177" height="463" alt="SITCON 醬 Q 版" />
@@ -2090,6 +2092,7 @@ MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
           </div>
         </footer>
 
+        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 <script>
   (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
