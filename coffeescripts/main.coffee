@@ -139,7 +139,7 @@ page.section SECTIONS.LANDING, (section) ->
     to: 0
   }
 
-  if tablet
+  if pc
     section.transitions(transitions)
 
 page.section SECTIONS.NAVIGATION, (section) ->
@@ -180,7 +180,7 @@ page.section SECTIONS.ABOUT, (section) ->
         return (val / 100) * screenHeight
     }
 
-  if tablet
+  if pc
     section.transitions(transitions)
 
 page.section SECTIONS.LOCATION, (section) ->
@@ -202,7 +202,7 @@ page.section SECTIONS.LOCATION, (section) ->
       val = (val / 100) * screenHeight
   }
 
-  if tablet
+  if pc
     section.transitions(transitions)
 
 

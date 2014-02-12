@@ -39,11 +39,11 @@
 
     @include at-breakpoint($tablet) {
       @include span-columns(6);
-      @include adjust-font-size-to(24px, 1.5);
     }
 
-    @include at-breakpoint(pc) {
+    @include at-breakpoint($pc) {
       @include span-columns(8);
+      @include adjust-font-size-to(24px, 1.5);
     }
   }
 
@@ -59,7 +59,7 @@
       top: -320px;
       z-index: 999;
 
-      @include at-breakpoint($tablet) {
+      @include at-breakpoint($pc) {
         display: block;
       }
     }
