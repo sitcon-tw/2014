@@ -31,9 +31,6 @@
 
   @include rotateZ(-1.25deg);
 
-  @include at-breakpoint($tablet) {
-  }
-
   h1 {
     margin-top: 1.5em;
 
@@ -82,7 +79,7 @@
   text-transform: uppercase;
   color: $secondaryColor;
 
-  @include at-breakpoint($tablet) {
+  @include at-breakpoint($pc) {
     display: block;
   }
 
