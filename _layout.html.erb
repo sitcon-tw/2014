@@ -52,6 +52,7 @@
           </div>
         </footer>
 
+        <%= livereload_js if ENV["RACK_ENV"] != "production" %>
         <%= partial "analytics" if enable_analytics? %>
         <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?sensor=false" %>
         <%= bower_tag "sections.js/dist/sectionsjs.min" %>
