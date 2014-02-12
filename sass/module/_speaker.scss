@@ -11,7 +11,7 @@
 
     @include span-columns(4);
     @include at-breakpoint($tablet) {
-      @include span-columns(2);
+      @include span-columns(1);
     }
     @include at-breakpoint($pc) {
       @include span-columns(3);
@@ -21,7 +21,7 @@
   .biography.column {
     @include span-columns(4);
     @include at-breakpoint($tablet) {
-      @include span-columns(4 omega);
+      @include span-columns(5 omega);
     }
     @include at-breakpoint($pc) {
       @include span-columns(9 omega);

@@ -18,6 +18,14 @@
 
   @include isolate-grid(4);
 
+  @include at-breakpoint($tablet) {
+    @include isolate-grid(4);
+  }
+
+  @include at-breakpoint($pc) {
+    @include isolate-grid(4);
+  }
+
   a {
     display: block;
     @include opacity(0.5);
