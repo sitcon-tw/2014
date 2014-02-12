@@ -30,8 +30,8 @@ $sections = {
 # Media Query in JS
 ###
 
-tablet = Modernizr.mq("min-width: 48em")
-pc = Modernizr.mq("min-width: 64em")
+tablet = Modernizr.mq("(min-width: 48em)")
+pc = Modernizr.mq("(min-width: 64em)")
 
 # Location
 $mapCanva = document.querySelector("#map-canva")
@@ -202,7 +202,8 @@ page.section SECTIONS.LOCATION, (section) ->
       val = (val / 100) * screenHeight
   }
 
-  section.transitions(transitions)
+  if tablet
+    section.transitions(transitions)
 
 
 page.section SECTIONS.SPEAKER, (section) ->
