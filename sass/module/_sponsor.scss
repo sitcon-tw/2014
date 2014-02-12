@@ -1,5 +1,6 @@
 /**
  * Sponsor Module
+ *
  */
 
 .sponsors {
@@ -18,11 +19,23 @@
 
   @include isolate-grid(4);
 
+  @include at-breakpoint($tablet) {
+    @include isolate-grid(4);
+  }
+
+  @include at-breakpoint($pc) {
+    @include isolate-grid(4);
+  }
+
   a {
     display: block;
-    @include opacity(0.5);
+    @include opacity(1);
     @include transition(150ms ease-in opacity);
     @include translateZ(0);
+
+    @include at-breakpoint($pc) {
+      @include opacity(0.5);
+    }
 
     &:hover, &:active, &:focus {
       @include opacity(1);

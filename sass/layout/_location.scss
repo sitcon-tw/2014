@@ -5,6 +5,12 @@
 #location {
   position: relative;
   overflow: inherit;
+
+  height: 65%;
+
+  @include at-breakpoint($pc) {
+    height: 100%;
+  }
 }
 
 #location-information {
@@ -19,20 +25,45 @@
   color: white;
   background: rgba(black, 0.75);
 
+  .date, .location {
+    display: block;
+
+    @include at-breakpoint($tablet) {
+      display: inline;
+    }
+  }
+
   .information {
-    @include adjust-font-size-to(24px, 1.5);
-    @include span-columns(8);
+    @include span-columns(4);
+    @include adjust-font-size-to(18px, 1.5);
+
+    @include at-breakpoint($tablet) {
+      @include span-columns(6);
+    }
+
+    @include at-breakpoint($pc) {
+      @include span-columns(8);
+      @include adjust-font-size-to(24px, 1.5);
+    }
   }
 
   .sitcon-jiang {
     position: relative;
 
-    @include span-columns(4 omega);
+    @include at-breakpoint($pc) {
+      @include span-columns(4 omega);
+    }
 
     img {
+      display: none;
+
       position: absolute;
       top: -320px;
       z-index: 999;
+
+      @include at-breakpoint($pc) {
+        display: block;
+      }
     }
   }
 }

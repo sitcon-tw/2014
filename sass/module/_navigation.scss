@@ -3,40 +3,69 @@
  */
 
 #main-menu {
-  min-height: 60px;
+  background: $main-menu-bg;
+
+  @include at-breakpoint($tablet) {
+    min-height: 60px;
+  }
+
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
 }
 
 .menu {
-  padding: 0;
-  padding-top: 0.9em;
-  padding-bottom: 0.9em;
+  padding: 2em;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
   margin: 0;
 
   list-style: none;
+
+  @include at-breakpoint($tablet) {
+    padding: 0;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+  }
 
   a {
     text-decoration: none;
   }
 
   .item {
-    display: inline-block;
+    border-bottom: 1px solid adjust-lightness($main-menu-color, -80%);
 
-    padding: 0.3em 1em;
+    @include rhythm(0.15, 0.25, 0.25, 0.15);
 
-    border-right: 1px solid adjust-lightness($main-menu-color, -80%);
+    @include at-breakpoint($tablet) {
+      display: inline-block;
+
+      padding: 0.3em 1em;
+
+      border-bottom: none;
+      border-right: 1px solid adjust-lightness($main-menu-color, -80%);
+
+      @include rhythm(0.15, 0, 0, 0.15);
+    }
 
     &:last-child {
       border: none;
     }
+
   }
 }
 
-.menu.main {
-  background: $main-menu-bg;
+.menu.main, .mobile.menu {
 
   text-align: center;
   text-transform: uppercase;
+  color: adjust-lightness($main-menu-color, -60%);
 
+  @include clearfix;
   @include transition(100ms ease-out);
 
   .item {
@@ -53,12 +82,35 @@
       color: $main-menu-color;
     }
   }
+}
 
-  &.fixed {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
+.menu.main {
+  max-height: 0;
+
+  @include at-breakpoint($tablet) {
+    max-height: 100em;
+  }
+}
+
+#menu-toggle {
+  position: absolute;
+  left: -100px;
+
+  &:focus ~ .main.menu {
+    max-height: 100em;
+  }
+}
+
+.menu.mobile {
+  display: block;
+  padding: 0;
+
+  @include at-breakpoint($tablet) {
+    display: none;
+  }
+
+  .item {
+    color: $primaryColor;
+    @include text-shadow(0 0 5px rgba($primaryColor, 0.5));
   }
 }

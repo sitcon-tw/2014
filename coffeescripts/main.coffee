@@ -26,6 +26,13 @@ $sections = {
   "#team": $("#team")
 }
 
+###
+# Media Query in JS
+###
+
+tablet = Modernizr.mq("(min-width: 48em)")
+pc = Modernizr.mq("(min-width: 64em)")
+
 # Location
 $mapCanva = document.querySelector("#map-canva")
 
@@ -109,10 +116,10 @@ page = sections.create({
 page.on 'changed', (current, previous)->
   pageID = current.element.id
   if pageID is "landing"
-    $menu.removeClass "fixed"
+    $menu.parent().removeClass "fixed"
     $dom.removeClass "fixed"
   else
-    $menu.addClass "fixed"
+    $menu.parent().addClass "fixed"
     $dom.addClass "fixed"
 
 page.section SECTIONS.LANDING, (section) ->
@@ -132,7 +139,8 @@ page.section SECTIONS.LANDING, (section) ->
     to: 0
   }
 
-  section.transitions(transitions)
+  if pc
+    section.transitions(transitions)
 
 page.section SECTIONS.NAVIGATION, (section) ->
   section.on "scrollIn", (way)->
@@ -172,7 +180,8 @@ page.section SECTIONS.ABOUT, (section) ->
         return (val / 100) * screenHeight
     }
 
-  section.transitions(transitions)
+  if pc
+    section.transitions(transitions)
 
 page.section SECTIONS.LOCATION, (section) ->
   transitions = []
@@ -193,7 +202,8 @@ page.section SECTIONS.LOCATION, (section) ->
       val = (val / 100) * screenHeight
   }
 
-  section.transitions(transitions)
+  if pc
+    section.transitions(transitions)
 
 
 page.section SECTIONS.SPEAKER, (section) ->
@@ -227,7 +237,8 @@ page.section SECTIONS.SPEAKER, (section) ->
   section.on "scrollIn", ()->
     setMenuActiveItem(2)
 
-  section.transitions(transitions)
+  if tablet
+    section.transitions(transitions)
 
 page.section SECTIONS.SCHEDULE, (section) ->
   transitions = []

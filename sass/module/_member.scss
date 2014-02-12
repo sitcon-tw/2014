@@ -20,10 +20,26 @@
 
   text-align: center;
 
-  @include isolate-grid(3);
+  @include isolate-grid(2);
+
+  @include at-breakpoint($tablet) {
+    @include isolate-grid(4);
+  }
+
+  @include at-breakpoint($pc) {
+    @include isolate-grid(3);
+  }
 
   .nickname, .title {
     display: block;
+  }
+
+  .avatar {
+    overflow: hidden;
+
+    img {
+      max-width: 100%;
+    }
   }
 
   .avatar .link {

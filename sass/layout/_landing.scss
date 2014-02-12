@@ -1,11 +1,17 @@
 #landing {
   position: relative;
 
-  padding-top: 100% * 9/16;
+  padding-top: 100% * 9/16 * 2;
 
   overflow: hidden;
 
-  background: image-url("galaxy@2x.jpg") center;
+  background: image-url("galaxy@1x.jpg") center;
+
+  @include at-breakpoint($tablet) {
+    padding-top: 100% * 9/16;
+
+    background: image-url("galaxy@2x.jpg") center;
+  }
 }
 
 #cover {
@@ -37,9 +43,13 @@
 }
 
 #logo {
-  height: 75px;
+  height: 4em;
   background: image-url("logo_white.svg") center no-repeat;
   @include hide-text;
+
+  @include at-breakpoint($tablet) {
+    height: 75px;
+  }
 }
 
 @include keyframes(jumping) {
@@ -57,6 +67,8 @@
 }
 
 #scroll-down-notice {
+  display: none;
+
   position: absolute;
   bottom: 4em;
   left: 0;
@@ -66,6 +78,10 @@
   text-align: center;
   text-transform: uppercase;
   color: $secondaryColor;
+
+  @include at-breakpoint($pc) {
+    display: block;
+  }
 
 
   &:after {
