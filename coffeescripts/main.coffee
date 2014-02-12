@@ -237,7 +237,8 @@ page.section SECTIONS.SPEAKER, (section) ->
   section.on "scrollIn", ()->
     setMenuActiveItem(2)
 
-  section.transitions(transitions)
+  if tablet
+    section.transitions(transitions)
 
 page.section SECTIONS.SCHEDULE, (section) ->
   transitions = []
