@@ -6,10 +6,23 @@
   position: relative;
   overflow: hidden;
 
-  @include background(image-url("sitcon_jiang.png") no-repeat 85% 115%);
+  height: auto;
+
+  @include at-breakpoint($tablet) {
+    height: 100%;
+
+    @include background(image-url("sitcon_jiang.png") no-repeat 85% 115%);
+  }
 
   .description, .partner-list {
-    @include span-columns(8);
+    @include span-columns(4);
+
+    @include at-breakpoint($tablet) {
+      @include span-columns(6);
+    }
+    @include at-breakpoint($pc) {
+      @include span-columns(8);
+    }
   }
 
   .overlay.cg {
@@ -21,24 +34,35 @@
 
     pointer-events: none;
 
-    @include background(image-url("sitcon_jiang_line.png") no-repeat 85% 115%);
+    @include at-breakpoint($tablet) {
+      @include background(image-url("sitcon_jiang_line.png") no-repeat 85% 115%);
+    }
   }
 }
 
 #about-description {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-
+  position: relative;
   overflow: hidden;
 
   color: $secondaryColor;
+  @include rhythm(0, 0, 0.5, 0.25);
 
-  @include rhythm(0.25, 0.5, 0.5, 0.25);
+  @include at-breakpoint($tablet) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    @include rhythm(0.25, 0.5, 0.5, 0.25);
+  }
 
   .about-us {
     position: relative;
+  }
+
+  .description {
+    position: relative;
+    z-index: 50;
   }
 
   .partners {
@@ -51,21 +75,25 @@
   }
 
   .partner {
-    display: inline;
     margin-left: 0.5em;
+
+    @include at-breakpoint($tablet) {
+      display: inline;
+    }
   }
 
   .background.polygon {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: -25%;
-    z-index: -100;
 
     width: 100%;
 
     background: $primaryColor;
 
-    @include skewX(-45deg);
+    @include at-breakpoint($tablet) {
+      left: -25%;
+      @include skewX(-45deg);
+    }
   }
 }

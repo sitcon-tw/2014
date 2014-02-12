@@ -26,6 +26,13 @@ $sections = {
   "#team": $("#team")
 }
 
+###
+# Media Query in JS
+###
+
+tablet = Modernizr.mq("min-width: 48em")
+pc = Modernizr.mq("min-width: 64em")
+
 # Location
 $mapCanva = document.querySelector("#map-canva")
 
@@ -132,7 +139,8 @@ page.section SECTIONS.LANDING, (section) ->
     to: 0
   }
 
-  section.transitions(transitions)
+  if tablet
+    section.transitions(transitions)
 
 page.section SECTIONS.NAVIGATION, (section) ->
   section.on "scrollIn", (way)->
@@ -172,7 +180,8 @@ page.section SECTIONS.ABOUT, (section) ->
         return (val / 100) * screenHeight
     }
 
-  section.transitions(transitions)
+  if tablet
+    section.transitions(transitions)
 
 page.section SECTIONS.LOCATION, (section) ->
   transitions = []
