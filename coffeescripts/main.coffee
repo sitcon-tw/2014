@@ -109,10 +109,10 @@ page = sections.create({
 page.on 'changed', (current, previous)->
   pageID = current.element.id
   if pageID is "landing"
-    $menu.removeClass "fixed"
+    $menu.parent().removeClass "fixed"
     $dom.removeClass "fixed"
   else
-    $menu.addClass "fixed"
+    $menu.parent().addClass "fixed"
     $dom.addClass "fixed"
 
 page.section SECTIONS.LANDING, (section) ->
