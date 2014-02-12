@@ -1,0 +1,14 @@
+/**
+ * Footer Layout
+ */
+
+#footer {
+  color: $secondaryColor;
+  background: adjust-lightness($thirdColor, 15%);
+
+  @include rhythm(0.25, 0.5, 0.5, 0);
+}
+
+#copyright, #hyperlink {
+  @include rhythm(0.25, 0.15, 0.15, 0.25);
+}

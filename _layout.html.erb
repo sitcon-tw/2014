@@ -36,6 +36,21 @@
 
         <!-- Add your site or application content here -->
         <%= content_for?(:page_content) ? yield(:page_content) : yield %>
+        <footer id="footer">
+          <div id="copyright">
+            <div class="container">
+              &copy; Students' Information Technology Conference 2014. All right reserved.
+            </div>
+          </div>
+          <div id="hyperlink">
+            <div class="container">
+              <%= link_to "Facebook", "https://www.facebook.com/SitconTW", :class => "small glowing button", :target => "_blank" %>
+              <%= link_to "Twitter", "https://twitter.com/sitcontw", :class => "small glowing button", :target => "_blank" %>
+              <%= link_to "Plurk", "http://www.plurk.com/sitcon", :class => "small glowing button", :target => "_blank" %>
+              <%= link_to "SITCON 2013", "http://sitcon.org/2013", :class => "small glowing button", :target => "_blank" %>
+            </div>
+          </div>
+        </footer>
 
         <%= partial "analytics" if enable_analytics? %>
         <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?sensor=false" %>
