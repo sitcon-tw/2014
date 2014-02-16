@@ -24,7 +24,7 @@
 - talk:
     - panel
   name: 郭耀煌教授
-  avatar: null
+  avatar: speakers/panel3.jpg
   biography: >
     <p>郭耀煌教授現任政大理學院院長及成大資工系特聘教授，曾任行政院科顧組副執行秘書、教育部電算中心主任、國科會工程中心主任及資訊學門召集人，目前擔任教育部「資訊軟體人才培育中程計畫」及國科會「自由軟體暨雲端/資安研發推動專案」推動中心總召集人。</p>
 - talk:
@@ -59,6 +59,7 @@
     <p>一個喜歡寫遊戲、網頁和設計的電腦人，喜歡背圓週率(pi=3.141592653589793238462643383…)，同時喜歡打鼓和彈吉他，平常喜歡幫同學解決一些電腦問題。</p>
 - talk:
   - short_talk1-0
+  - panel
   name: jserv
   avatar: speakers/jserv.jpg
   biography: >
