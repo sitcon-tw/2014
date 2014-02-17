@@ -31,7 +31,7 @@ talk1-2:
     - Talk
     - R2
   speaker:
-    - 4
+    - 5
 talk1-0:
   title: 從網路到電路 - 利用 HTTP 的 RESTful 設計，控制牆壁上的插座
   detail: >
@@ -40,7 +40,7 @@ talk1-0:
     - Talk
     - R0
   speaker:
-    - 5
+    - 6
 talk1-1:
   title: 一年半前不會寫網站的菜鳥的故事
   detail: >
@@ -49,7 +49,7 @@ talk1-1:
     - Talk
     - R1
   speaker:
-    - 6
+    - 7
 short_talk1-2:
   title: 用積木打造遊戲
   detail: >
@@ -58,7 +58,7 @@ short_talk1-2:
     - Short-Talk
     - R2
   speaker:
-    - 7
+    - 8
 short_talk1-0:
   title: 教育你的師長，和他們一同成長
   detail: >
@@ -67,7 +67,7 @@ short_talk1-0:
     - Short-Talk
     - R0
   speaker:
-    - 8
+    - 9
 short_talk1-1:
   title: 第一次自幹 DEBUGGER 就上手 - 軟體除錯器撰寫
   detail: >
@@ -76,7 +76,7 @@ short_talk1-1:
     - Short-Talk
     - R1
   speaker:
-    - 9
+    - 10
 short_talk2-2:
   title: 小小社群，就從一台伺服器開始！
   detail: >
@@ -88,7 +88,7 @@ short_talk2-2:
     - Short-Talk
     - R2
   speaker:
-    - 10
+    - 11
 short_talk2-0:
   title: 走出教室的學習
   detail: >
@@ -97,7 +97,7 @@ short_talk2-0:
     - Short-Talk
     - R0
   speaker:
-    - 11
+    - 12
 short_talk2-1:
   title: Arduino 實作可觸繪圖界面
   detail: >
@@ -106,7 +106,7 @@ short_talk2-1:
     - Short-Talk
     - R1
   speaker:
-    - 12
+    - 13
 short_talk3-2:
   title: 從 Qt 翻譯進入 OSS 翻譯
   detail: >
@@ -115,7 +115,7 @@ short_talk3-2:
     - Short-Talk
     - R2
   speaker:
-    - 13
+    - 14
 short_talk3-0:
   title: 正規表達式簡介
   detail: >
@@ -124,7 +124,7 @@ short_talk3-0:
     - Short-Talk
     - R0
   speaker:
-    - 14
+    - 15
 short_talk3-1:
   title: Auto Choose Connect With QR Code
   detail: >
@@ -134,7 +134,7 @@ short_talk3-1:
     - Short-Talk
     - R1
   speaker:
-    - 15
+    - 16
 talk2-2:
   title: 深夜加油站遇見 QML
   detail: >
@@ -143,7 +143,7 @@ talk2-2:
     - Talk
     - R2
   speaker:
-    - 16
+    - 17
 talk2-1:
   title: 當 PHP 與 Facebook API 相遇
   detail: >
@@ -152,7 +152,7 @@ talk2-1:
     - Talk
     - R1
   speaker:
-    - 17
+    - 18
 talk2-0:
   title: 那些在 NTUST.CC 背後你所不知道的故事
   detail: >
@@ -161,7 +161,7 @@ talk2-0:
     - Talk
     - R0
   speaker:
-    - 18
+    - 19
 talk3-2:
   title: 從技術面簡介線上遊戲外掛
   detail: >
@@ -170,7 +170,7 @@ talk3-2:
     - Talk
     - R2
   speaker:
-    - 19
+    - 20
 talk3-0:
   title: 第一次接案就上手：PHP or RoR?
   detail: >
@@ -179,7 +179,7 @@ talk3-0:
     - Talk
     - R0
   speaker:
-    - 20
+    - 21
 talk3-1:
   title: 如何善用社群內容推廣冷門議題
   detail: >
@@ -189,7 +189,7 @@ talk3-1:
     - Talk
     - R1
   speaker:
-    - 21
+    - 22
 panel:
   title: 座談會
   tags:
@@ -202,7 +202,8 @@ panel:
     - 0
     - 1
     - 3
-    - 8
+    - 4
+    - 9
 lightning:
   title: Lightning Talk
   tags:
