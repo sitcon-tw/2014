@@ -28,6 +28,12 @@
   biography: >
     <p>郭耀煌教授現任政大理學院院長及成大資工系特聘教授，曾任行政院科顧組副執行秘書、教育部電算中心主任、國科會工程中心主任及資訊學門召集人，目前擔任教育部「資訊軟體人才培育中程計畫」及國科會「自由軟體暨雲端/資安研發推動專案」推動中心總召集人。</p>
 - talk:
+  - panel
+  name: 林旅強 (Richard Lin)
+  avatar: g:9e0b002ffe27dbdfb272e8fd1377bd35
+  biography: >
+    <p>林旅強 (Richard Lin)，網路暱稱 "Legist Qiang"。以 Open Source Evangelist 作為志業，擔任開放源碼在校園及社群之推廣工作，特別重視開放源碼在資訊教育的應用與實踐。甫任職於上海東革志信息科技有限公司，負責 GitCafe.com 代碼託管平台之運營工作；於任職中研院資創中心自由軟體鑄造場 (Open Source Software Foundry, OSSF) 之期間 (2009-2014)，於台灣各大專院校資訊相關系所辦理開放源碼講座、課程、工作坊、黑客松等教學及實作活動。</p>
+- talk:
   - talk1-2
   name: 蒼時弦也
   avatar: g:888339de9e7a88688b6acb30d33e66cd
