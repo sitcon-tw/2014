@@ -101,16 +101,16 @@
             "title": "門機股長",
             "avatar": "g:cab798ff74597f6784c628b4119bbd2f"
         },
-        "PingNote.Wu": {
-            "name": "小平",
-            "title": "餐飲股長",
-            "avatar": "g:c8e554d91577a152d5dadfa0a882c2ad"
-        },
         "aa48965": {
             "name": "Kevin-WY", 
-            "title": "餐飲股員", 
+            "title": "餐飲股長", 
             "avatar": "g:4dbbcd7b93f90eb9dc3a3e8df3610639"
         }, 
+        "PingNote.Wu": {
+            "name": "小平",
+            "title": "餐飲股員",
+            "avatar": "g:c8e554d91577a152d5dadfa0a882c2ad"
+        },
         "a7552005": {
             "name": "麵包", 
             "title": "餐飲股員", 
