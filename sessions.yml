@@ -24,14 +24,15 @@ keynote2:
   speaker:
     - 1
 talk1-2:
-  title: 如何維護你的專案
+  title: 深夜加油站遇見 QML
   detail: >
-    <p>每次開新專案的時候，只要到一個程度就會亂到想到砍掉重練。但是這不是唯一的辦法，我們只能夠在每次專案開始前，盡可能的做好準備，讓整個專案不會因為發展而變得越來越亂。</p>
+    <p>從什麼時候開始，為自己的行動裝置寫 code 不再令人開心？密密麻麻的 Java、Objective-C 程式碼，又讓你胃食道逆流了嗎？</p>
+    <p>放下可怕的系統框架，投奔 QML 的懷抱吧！集具 C++ 的速度、JavaScript 的彈性、Qt 的跨平台能力，我們將示範如何在 40 分鐘的時間內，為 g0v 零時政府開發一套 API client。不必跟人起爭議、也不需要裝 ETC，QML 讓你從此寫 code 不哭泣，輕鬆開發橫跨 Android、iOS、MeeGo、Ubuntu Touch 以及桌面環境的應用程式。<p>
   tags:
     - Talk
     - R2
   speaker:
-    - 5
+    - 17
 talk1-0:
   title: 從網路到電路 - 利用 HTTP 的 RESTful 設計，控制牆壁上的插座
   detail: >
@@ -136,14 +137,14 @@ short_talk3-1:
   speaker:
     - 16
 talk2-2:
-  title: 深夜加油站遇見 QML
+  title: 如何維護你的專案
   detail: >
-    <p>從什麼時候開始，為自己的行動裝置寫 code 不再令人開心？放下可怕的原生框架、投奔 QML 的懷抱吧！集具 C++ 的速度、JavaScript 的彈性，運用你我熟悉的 XMLHttpRequest，四十分鐘就能為 g0v 開發新的 API client！不必跟人起爭議、也不需要裝 ETC，QML 讓你從此寫 code 不哭泣，輕鬆開發跨平台的應用程式。<p>
+    <p>每次開新專案的時候，只要到一個程度就會亂到想到砍掉重練。但是這不是唯一的辦法，我們只能夠在每次專案開始前，盡可能的做好準備，讓整個專案不會因為發展而變得越來越亂。</p>
   tags:
     - Talk
     - R2
   speaker:
-    - 17
+    - 5
 talk2-1:
   title: 當 PHP 與 Facebook API 相遇
   detail: >
