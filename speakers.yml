@@ -17,16 +17,16 @@
     - panel
 - talk:
     - panel
-  name: Richard Lee
-  avatar: http://sitcon.org/2013/images/speakers/richard-lee.jpg
-  biography: >
-    <p>Polydice & Inside 共同創辦人，目前主要參與公司產品愛料理的營運以及產品開發。熱愛打造產品、新創公司的成長以及 Web 和 Mobile 相關技術。</p>
-- talk:
-    - panel
   name: 郭耀煌教授
   avatar: speakers/panel3.jpg
   biography: >
     <p>郭耀煌教授現任政大理學院院長及成大資工系特聘教授，曾任行政院科顧組副執行秘書、教育部電算中心主任、國科會工程中心主任及資訊學門召集人，目前擔任教育部「資訊軟體人才培育中程計畫」及國科會「自由軟體暨雲端/資安研發推動專案」推動中心總召集人。</p>
+- talk:
+    - panel
+  name: Richard Lee
+  avatar: http://sitcon.org/2013/images/speakers/richard-lee.jpg
+  biography: >
+    <p>Polydice & Inside 共同創辦人，目前主要參與公司產品愛料理的營運以及產品開發。熱愛打造產品、新創公司的成長以及 Web 和 Mobile 相關技術。</p>
 - talk:
   - panel
   name: 林旅強 (Richard Lin)
@@ -35,10 +35,12 @@
     <p>林旅強 (Richard Lin)，網路暱稱 "Legist Qiang"。以 Open Source Evangelist 作為志業，擔任開放源碼在校園及社群之推廣工作，特別重視開放源碼在資訊教育的應用與實踐。甫任職於上海東革志信息科技有限公司，負責 GitCafe.com 代碼託管平台之運營工作；於任職中研院資創中心自由軟體鑄造場 (Open Source Software Foundry, OSSF) 之期間 (2009-2014)，於台灣各大專院校資訊相關系所辦理開放源碼講座、課程、工作坊、黑客松等教學及實作活動。</p>
 - talk:
   - talk1-2
-  name: 蒼時弦也
-  avatar: g:888339de9e7a88688b6acb30d33e66cd
+  name: RSChiang
+  avatar: g:b3ecf4287d58054135af5d7b4d741021
   biography: >
-    <p>現為銘傳大學數位媒體設計系學生，但是不知道為什麼一直在寫 Code。</p>
+    <p>RSChiang，目前就讀於臺灣大學法律學系，SITCON 2013、2014 行政組長。</p>
+    <p>悠遊於語言、符號與象徵形式，致力使技術與生活踏實結合的開發者。去年 SITCON 還在善導寺高中刻人工智慧，暑假某天突然轉職成鍵盤法律人。被問起為什麼要在學校推廣開源概念？大概是為了不辜負爺爺的名聲吧。</p>
+    <p><a href="http://me.sitcon.org/RSChiang" rel="external nofollow">me.sitcon.org/RSChiang</a></p>
 - talk:
   - talk1-0
   name: Pichu Chen
@@ -103,7 +105,7 @@
   biography: >
     <p>台北實踐大學大三生<br />
     路邊隨處可見的懵懂大學生，對於各種軟體技術都有興趣，各方面嘗試中，目前最有興趣的是 Golang、Qt。</p>
-    <p>Find me: Golang.tw、Qt Taiwan 。</p>
+    <p>Find me: Golang.tw、Qt Taiwan</p>
 - talk:
   - short_talk3-0
   name: 和風信使
@@ -118,23 +120,23 @@
     <p>SyneArt，平凡大學生一枚，喜歡研究程式，平時以寫程式為樂，設計為趣，有接不完的 Case，但都是義務性幫忙居多，目前朝著開源的方向前進，可以在這裡找到我：<a href="http://syneart.com" target="_blank">syneart.com</a>。</p>
 - talk:
   - talk2-2
-  name: RSChiang
-  avatar: g:b3ecf4287d58054135af5d7b4d741021
+  name: 蒼時弦也
+  avatar: g:888339de9e7a88688b6acb30d33e66cd
   biography: >
-    <p>RSChiang，目前就讀於臺灣大學法律學系，曾任 SITCON 2013 行政組長。</p>
-    <p>去年還在善導寺高中刻人工智慧，某天突然轉職成鍵盤法律人。被問起為什麼要在學校推廣開源概念？大概是為了不辜負爺爺的名聲吧。</p>
-- talk:
-  - talk2-1
-  name: 聽。風
-  avatar: g:3c55fae3843681f1452761396c6a417f
-  biography: >
-    <p>我是林熙哲，因為各種原因一頭栽進程式的世界，我對 PHP、C# 等程式語言有興趣，之後想研究 Ruby on Rails，歡迎有興趣的朋友找我討論，另外我目前有在做一個「活動公告平台」，會在本次 SITCON 的閃電秀中做介紹。</p>
+    <p>現為銘傳大學數位媒體設計系學生，但是不知道為什麼一直在寫 Code。</p>
+    <p>平常主要在搞網站，不論前端、後端、設幾只要是關於「Web」的都喜歡</p>
 - talk:
   - talk2-0
   name: JSON
   avatar: speakers/json.jpg
   biography: >
     <p>台科大資工系學生，曾獲得全國技能競賽網頁設計金牌至此熱愛 Web / 程式開發，對於不滿的現狀總有開發的想法，喜歡學習各種潮流技術，是 Web 開發愛好者，因為它能夠快速將想法呈現給使用用者，平常以 RoR 進行 Web 開發，為 MeowDev 成員。關於我：<a href="http://blog.developer.tw" rel="external nofollow">blog.developer.tw</a>。</p>
+- talk:
+  - talk2-1
+  name: 聽。風
+  avatar: g:3c55fae3843681f1452761396c6a417f
+  biography: >
+    <p>我是林熙哲，因為各種原因一頭栽進程式的世界，我對 PHP、C# 等程式語言有興趣，之後想研究 Ruby on Rails，歡迎有興趣的朋友找我討論，另外我目前有在做一個「活動公告平台」，會在本次 SITCON 的閃電秀中做介紹。</p>
 - talk:
   - talk3-2
   name: Zuan
