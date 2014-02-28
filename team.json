@@ -14,11 +14,6 @@
             "name": "波卡Poka",
             "title": "行銷股贊助",
             "avatar": "g:296ec9c4dc557c85ef8ca6feaa956c98"
-        },
-        "mr.lin.clarence": {
-            "name": "Clarence",
-            "title": "行銷股公關",
-            "avatar": "g:1cef2c5a606938ebad117ba899ee6b5f"
         }
     },
     "行政組": {
@@ -26,6 +21,11 @@
             "name": "RSChiang",
             "title": "行政組長",
             "avatar": "g:b3ecf4287d58054135af5d7b4d741021"
+        },
+        "lyc0421": {
+            "name": "影子",
+            "title": "行政組社群",
+            "avatar": "g:6e6bcadb0cf769a8d4f4c02a62c74295"
         },
         "chandrew1119": {
             "name": "Ch.Andrew",
@@ -36,11 +36,6 @@
             "name": "Oscar",
             "title": "行政組檔案",
             "avatar": "g:c7fc9eee61d15190efcddf8e5bcaabeb"
-        },
-        "lyc0421": {
-            "name": "影子",
-            "title": "行政組社群",
-            "avatar": "g:6e6bcadb0cf769a8d4f4c02a62c74295"
         },
         "jeremy5189": {
             "name": "Jeremy Yen",
@@ -101,36 +96,111 @@
             "title": "場務副組長",
             "avatar": "g:cadc057afc057373a9675da020663393"
         },
-        "PingNote.Wu": {
-            "name": "小平",
-            "title": "場務組餐飲",
-            "avatar": "g:c8e554d91577a152d5dadfa0a882c2ad"
-        },
         "scwuaptx": {
             "name": "AngelBoy",
-            "title": "場務組門機",
+            "title": "門機股長",
             "avatar": "g:cab798ff74597f6784c628b4119bbd2f"
         },
+        "PingNote.Wu": {
+            "name": "小平",
+            "title": "餐飲股長",
+            "avatar": "g:c8e554d91577a152d5dadfa0a882c2ad"
+        },
+        {
+            "name": "Kevin-WY", 
+            "title": "餐飲股員", 
+            "avatar": "g:4dbbcd7b93f90eb9dc3a3e8df3610639"
+        }, 
+        {
+            "name": "麵包", 
+            "title": "餐飲股員", 
+            "avatar": "g:f4c55d89dbf00d2925c30ff9933eb73f"
+        }, 
         "e04e04qwe": {
             "name": "帝王",
-            "title": "場務組紀錄",
+            "title": "紀錄股員",
             "avatar": "g:b0206a288d398db7a8252ffa14547a07"
         },
         "horace.chuang": {
             "name": "阿霍",
-            "title": "場務組紀錄",
+            "title": "紀錄股員",
             "avatar": "g:cbabc621abdb7c825c5922dfea3c5b4a"
         },
         "yilang22444": {
             "name": "Breezr",
-            "title": "場務組紀錄",
+            "title": "紀錄股員",
             "avatar": "g:2edb49fbad2ab9658e65bf3e76225f61"
         },
         "littledairylee": {
             "name": "小代",
-            "title": "場務組紀錄",
+            "title": "紀錄股員",
             "avatar": "g:03941b09baa04ddbce792c1c608d276f"
-        }
+        },
+        {
+            "name": "Clarence", 
+            "title": "場務組員", 
+            "avatar": "g:1cef2c5a606938ebad117ba899ee6b5f"
+        }, 
+        {
+            "name": "Fish福", 
+            "title": "場務組員", 
+            "avatar": "g:74dcbe6cf1c08a5711df7dcaeaabba1e"
+        }, 
+        {
+            "name": "ZLeaf", 
+            "title": "場務組員", 
+            "avatar": "g:2d00b3a8dea6699c952d78fad2169bb4"
+        }, 
+        {
+            "name": "佳玟", 
+            "title": "場務組員", 
+            "avatar": "g:02b8bd75fae0de2e9f32efce1fe9be9d"
+        }, 
+        {
+            "name": "元兒", 
+            "title": "場務組員", 
+            "avatar": "g:19460c7d200c042b0305ddc0f662a286"
+        }, 
+        {
+            "name": "平原", 
+            "title": "場務組員", 
+            "avatar": "g:59ed2b60ff923e33cf7637f34854cc64"
+        }, 
+        {
+            "name": "意惠", 
+            "title": "場務組員", 
+            "avatar": "g:7f832b4c8e9e8cd7654a296760d54e77"
+        }, 
+        {
+            "name": "本本", 
+            "title": "場務組員", 
+            "avatar": "g:1d1ebf30851deca68fa5fe5d9ade26b3"
+        }, 
+        {
+            "name": "某貓", 
+            "title": "場務組員", 
+            "avatar": "g:e485ea0f9806f55f1c67bbdc3427e3ff"
+        }, 
+        {
+            "name": "湘苓", 
+            "title": "場務組員", 
+            "avatar": "g:1540ef9d5f16a783c25bdfa33a537d63"
+        }, 
+        {
+            "name": "糖萱", 
+            "title": "場務組員", 
+            "avatar": "g:8de1fcecfb95061dcd76395ab99ad9df"
+        }, 
+        {
+            "name": "蛋糕", 
+            "title": "場務組員", 
+            "avatar": "g:9a46bd224238c7e422ff8b2e0ac9a834"
+        }, 
+        {
+            "name": "雯雯", 
+            "title": "場務組員", 
+            "avatar": "g:66459b917fe15fb5c1465c7746417078"
+        }, 
     },
     "財務組": {
         "linroex": {
