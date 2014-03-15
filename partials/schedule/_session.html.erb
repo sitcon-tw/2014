@@ -11,7 +11,7 @@
       <% end %>
     </div>
   </h4>
-  <div class="detail">
+  <div class="detail<%= session["title"] == "Lightning Talk" ? "active" : "" %>">
     <%= session["detail"] %>
   </div>
   <div class="meta">
