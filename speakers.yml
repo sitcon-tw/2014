@@ -158,4 +158,21 @@
   avatar: speakers/bbc.jpg
   biography: >
     <p>justfont blog 主編，字戀粉絲團 B 編，臺大中文畢，政大數位內容碩二，字體控暨影迷，但不太讀書。消費內容之餘也生產內容。</p>
+- talk:
+    - lightning
+  name: Jeremy Yen
+  avatar: nil
+- talk:
+    - lightning
+  name: Takeshi
+  avatar: nil
+- talk:
+    - lightning
+  name: Xatier & Rsghost
+  avatar: nil
+- talk:
+    - lightning
+  name: Hr. J
+  avatar: nil
+
 

@@ -208,11 +208,19 @@ panel:
     - 9
 lightning:
   title: Lightning Talk
+  detail: >
+    <p><strong>遺失的學校</strong> - Jeremy Yen</p>
+    <p><strong>SITCON 座位表</strong> - Takeshi</p>
+    <p><strong>0x2f - 台中沒場地怎麼辦</strong> - Xatier & Rsghost</p>
+    <p><strong>TDOHacker 學生資安社群</strong> - Hr. J</p>
   tags:
     - Lightning-Talk
     - R0
   speaker:
-    -
+    - 23
+    - 24
+    - 25
+    - 26
 salon:
   title: 主題沙龍
   detail: >
